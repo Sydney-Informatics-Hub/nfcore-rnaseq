@@ -1,24 +1,19 @@
-# Artemis Training Series
+# Bioinformatics Training! Templated from the Artemis Training Series
 
-This is the overview page for the Artemis training course series. The individual lessons are listed below:
+This readme file does nothing for the website/course, but you can add some internal notes here (but remember it is a public facing page, don't add an API key or something!)
 
-| Lesson Repo    | Overview |
-| ------- | ---------- |
-| [Introduction to Artemis HPC](https://github.com/Sydney-Informatics-Hub/training.artemis.introhpc) | Introduces USyd's High Performance Computer (HPC), ‘Artemis’. We cover connecting and navigating Artemis, available software, and how to submit and monitor jobs using the PBS Pro scheduler.|
-| [Introduction to the Research Data Store and Data Transfer](https://github.com/Sydney-Informatics-Hub/training.artemis.rds) |  Learn how to transfer data between your local computer, external sources, the University's Research Data Store (RDS) and Artemis HPC. |
-|[Intermediate Artemis HPC](https://github.com/Sydney-Informatics-Hub/training.artemis.interhpc) | Learn how to automate multiple-run analyses with job arrays and do simple bash scripting on Artemis. The live training consists of two hours of instruction and practical exercises. |
-|[Matlab on Artemis: The MDCS](https://github.com/Sydney-Informatics-Hub/training.artemis.mdcs) | Artemis HPC hosts a Matlab Distributed Computing Server (MDCS) - this allows users to submit MATLAB jobs directly to Artemis from within their local Matlab instance on their machines. Come and learn how to use this service. |
+This site is rendered at [https://sydney-informatics-hub.github.io/bio-temp/](https://sydney-informatics-hub.github.io/bio-temp/)
+
+Changes to the Episodes are done in \_episodes
+
+Changes to the front-matter and setup and all the other stuff is done in.... "\_config.yml", "index.md" and probably a few other locations. You might want to delete a few of the dropdowns in the header bar if approriate (Extras, License, Suggest Edits, etc).
 
 
-### iii. Checking your work
 
-We welcome all contributions to improve our courses! Maintainers will do their best to help you if you have any
-questions, concerns, or experience any difficulties along the way.
 
-We'd like to ask you to familiarise yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at
-The Carpentries' [detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even how to write new episodes.
 
-## Code Of Conduct
+
+# Code Of Conduct
 We expect all attendees of our training to follow the University of Sydney’s Staff and Student Codes of Conduct, including the Bullying, harassment and discrimination prevention policy.
 
 In order to foster a positive and professional learning environment we encourage the following kinds of behaviours at all our events and platforms:
@@ -31,14 +26,16 @@ In order to foster a positive and professional learning environment we encourage
 
 Our full CoC, with incident reporting guidelines, is available at https://pages.github.sydney.edu.au/informatics/sih_codeofconduct/
 
-## Maintainer(s)
+# Maintainer(s)
 
-* Hayim Dar
+* Nandan Deshpande
 * Nathaniel Butterworth
-* Tracy Chew.
+* Tracy Chew
+* Georgie
 
 Contact [sih.training@sydney.edu.au](mailto:sih.training@sydney.edu.au).
 
+# All the stuff from the original carpentries template...
 
 [lesson-example]: https://carpentries.github.io/lesson-example
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
