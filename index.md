@@ -4,7 +4,7 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-**Synopsis:** Learn bioinformatics!.
+**Synopsis:** Learn bioinformatics :-)!.
 
 **Target audience:** Students and staff who would like to learn how to run compute jobs on Artemis HPC. Participants must have a valid USyd unikey.
 
