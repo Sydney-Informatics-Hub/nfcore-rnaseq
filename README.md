@@ -1,4 +1,6 @@
-# Bioinformatics Training! Templated from the Artemis Training Series
+# Bioinformatics Training! Templated from the Artemis Training Series 
+
+Hello
 
 This readme file does nothing for the website/course, but you can add some internal notes here (but remember it is a public facing page, don't add an API key or something!)
 
