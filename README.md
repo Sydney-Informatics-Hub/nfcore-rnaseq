@@ -1,4 +1,4 @@
-# Bioinformatics Training! Templated from the Artemis Training Series 
+# RNASeq workshop
 
 Hello
 
