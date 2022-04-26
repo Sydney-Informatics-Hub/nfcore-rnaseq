@@ -16,7 +16,7 @@ keypoints:
 This episode is gives an overview to  **RNASeq** analysis . 
 
 <figure>
-  <img src="{{ page.root }}/fig/rnaseq_workflow.png" style="margin:10px;height:200px"/>
+  <img src="{{ page.root }}/fig/rnaseq_workflow.png" style="margin:10px;height:300px"/>
   <figcaption> A cartoon scheduler -- compute jobs will try to be resourced as efficiently as possible! </figcaption>
 </figure><br>
 
