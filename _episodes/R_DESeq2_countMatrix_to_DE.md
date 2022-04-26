@@ -139,4 +139,9 @@ write.table(resSig005_comparison_Wild_vs_KO_FULLMatrix, "res_DeSeq2_FDR0.05_comp
 plotDispEsts(dds_comparison_Wild_vs_KO_FULLMatrix, ylim = c(1e-6,1e3) )
 ~~~
 
+## Plot histogram of p-values
+~~~
+#hist(res_comparison_Wild_vs_KO_FULLMatrix$pvalue, col = "lavender", main = title, xlab = "p-values")
+~~~
+
 
