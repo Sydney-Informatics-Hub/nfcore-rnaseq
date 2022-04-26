@@ -1,0 +1,17 @@
+---
+title: "Scripting with 'R' "
+teaching: 10
+exercises: 10
+questions:
+- "What is R?"
+- "What is RStudio"
+- "Experimental design?"
+
+objectives:
+- "Learn basics of the RNASeq experimental protocols"
+keypoints:
+- XXX
+---
+
+
+This episode is gives an overview the background for **RNASeq** analysis and the sequencing methodology. 
