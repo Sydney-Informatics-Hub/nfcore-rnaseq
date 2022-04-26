@@ -9,17 +9,14 @@ objectives:
 - "Discuss what is needed to log in to a Nimbus instance."
 - Successfully log in to a Nimbus instance.
 keypoints:
-- "Connecting to Artemis requires a terminal emulator, and an account with access."
-- "Users connect to Artemis' _**login nodes**_ only."
-- "On Windows, use X-Win32, PuTTY, or another shell and terminal application of your choice."
-- "GUI login access is also available."
+
 ---
-This episode introduces the [Sydney Informatics Hub](https://informatics.sydney.edu.au/), Artemis HPC and how to get connected.
+This episode introduces the [Cloud computing at Pawsey](https://pawseysupercomputing.github.io/using-nimbus/02-cloud-at-pawsey/index.html) and how to get connected.
 
 
-# The Sydney Informatics Hub
+# The Pawsey Supercomputing Research Centre
 
-The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.edu.au/research/facilities.html)_ of the University of Sydney. Core Research Facilities centralise essential research equipment and services that would otherwise be too expensive or impractical for individual Faculties to purchase and maintain. The classic example might be the room-size electron-microscopes, built into specialised rooms in the Sydney Microscopy & Microanalysis unit.
+
 
 <figure>
   <img src="{{ page.root }}/fig/01_crf.png" style="margin:10px;height:400px"/>
