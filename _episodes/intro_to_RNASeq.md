@@ -13,7 +13,7 @@ keypoints:
 - XXX
 ---
 
-This episode is an introduction to  **RNASeq_** . 
+This episode is an introduction to  **RNASeq** . 
 
 <figure>
   <img src="{{ page.root }}/fig/rnaseq_workflow.png" style="margin:10px;height:200px"/>
