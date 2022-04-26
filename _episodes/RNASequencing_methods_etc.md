@@ -31,5 +31,5 @@ This episode is gives an overview the background for **RNASeq** analysis and the
 <figure>
   <img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:300px"/>
   <figcaption> RNA/DNA library construction </figcaption>
-</figure><br>
+</figure><br> 
 
