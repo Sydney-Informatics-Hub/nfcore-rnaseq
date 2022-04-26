@@ -1,12 +1,13 @@
 ---
-title: "Welcome to Nimbus HPC"
-teaching: 20
+title: "Welcome to Nimbus: Cloud computing at Pawsey"
+teaching: 10
 exercises: 0
 questions:
-- "Who are the Sydney Informatics Hub?"
-- "What is an 'Artemis'..?"
+- "What is a Nimbus instance?"
+- "How do I securely log into a Nimbus instance?"
 objectives:
-- "Learn how to connect to Artemis."
+- "Discuss what is needed to log in to a Nimbus instance."
+- Successfully log in to a Nimbus instance.
 keypoints:
 - "Connecting to Artemis requires a terminal emulator, and an account with access."
 - "Users connect to Artemis' _**login nodes**_ only."
