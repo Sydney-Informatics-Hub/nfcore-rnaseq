@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Artemis HPC"
+title: "Welcome to Nimbus VM"
 teaching: 20
 exercises: 0
 questions:
