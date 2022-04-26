@@ -52,18 +52,18 @@ ego.up <- enrichGO(gene = names(sig.up.LFC),
                       qvalueCutoff = 0.2)
 ~~~
 
-# Dotplot
+### Dotplot
 ~~~
 dotplot(ego.up, showCategory=20)
 ~~~
 
 <figure>
-  <img src="{{ page.root }}/fig/DotPlot_up.png" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/DotPlot_up.png" style="margin:10px;height:400px"/>
   <figcaption> A basic RNASeq analysis workflow </figcaption>
 </figure><br>
 
 
-# cnetplot
+### cnetplot
 ~~~
 # Depicts the linkages of genes and biological concepts (e.g. GO terms or KEGG pathways) as a network.
 cnetplot(ego.up, 
@@ -74,11 +74,11 @@ cnetplot(ego.up,
 ~~~
 
 <figure>
-  <img src="{{ page.root }}/fig/cnePlot_up.png" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/cnePlot_up.png" style="margin:10px;height:400px"/>
   <figcaption> A basic RNASeq analysis workflow </figcaption>
 </figure><br>
 
-## Downregulated
+### Downregulated
 ~~~
 ego.dn <- enrichGO(gene = names(sig.dn.LFC),
                       OrgDb = org.Mm.eg.db, 
@@ -90,17 +90,17 @@ ego.dn <- enrichGO(gene = names(sig.dn.LFC),
                       qvalueCutoff = 0.2)
 ~~~
 
-# Dotplot
+### Dotplot
 ~~~
 dotplot(ego.dn, showCategory=20)
 ~~~
 
 <figure>
-  <img src="{{ page.root }}/fig/DotPlot_down.png" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/DotPlot_down.png" style="margin:10px;height:400px"/>
   <figcaption> A basic RNASeq analysis workflow </figcaption>
 </figure><br>
 
-# cnetplot
+### cnetplot
 ~~~
 cnetplot(ego.dn, 
          categorySize="pvalue", 
@@ -110,6 +110,6 @@ cnetplot(ego.dn,
 ~~~
 
 <figure>
-  <img src="{{ page.root }}/fig/cnePlot_down.png" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/cnePlot_down.png" style="margin:10px;height:400px"/>
   <figcaption> A basic RNASeq analysis workflow </figcaption>
 </figure><br>
