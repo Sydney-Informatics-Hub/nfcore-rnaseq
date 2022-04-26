@@ -15,30 +15,33 @@ keypoints:
 
 This episodes on a Nimbus instance. 
 
-
+## Load R libraries
 ~~~
 library("DESeq2")
+library("edgeR")
+library("limma")
+
 library("RColorBrewer")
 library("gplots")
-library(edgeR)
-library(limma)
-library("devtools")
-library(rstudioapi)
 library("ggplot2")
+library("EnhancedVolcano")
+
+library("devtools")
+library("rstudioapi")
 
 library("dplyr")
+library("tibble")
+library("tidyverse")
 
-library(biomaRt)
-library(annotables)
-library(tidyverse)
-library(biobroom)
-library(EnhancedVolcano)
-library(clusterProfiler)
-library(org.Mm.eg.db)
+# Bioinformatics databases/formatting etc
+library("biomaRt")
+library("annotables")
+library("org.Mm.eg.db")
+library("biobroom")
 
+# Functional analysis
+library("clusterProfiler")
 library("pathfindR")
-
-library(tibble)
 
 #----------Set the current path as the current working directory------
 current_path <- getActiveDocumentContext()$path 
