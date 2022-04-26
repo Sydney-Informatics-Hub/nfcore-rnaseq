@@ -14,7 +14,7 @@ keypoints:
 ---
 
 
-This episode is gives an overview to  **RNASeq** analysis . 
+This episode is gives an overview the background for **RNASeq** analysis and the sequencing methodology. 
 
 <figure>
   <img src="{{ page.root }}/fig/central_dogma.png" style="margin:10px;height:300px"/>
