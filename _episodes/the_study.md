@@ -20,7 +20,7 @@ Knockout mouse model to study Williams-Beuren Syndrome
 
 
 <figure>
-  <img src="{{ page.root }}/fig/the_study.png" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/the_study.png" style="margin:10px;height:200px"/>
   <figcaption> Central dogma of molecular biology </figcaption>
 </figure><br>
 
