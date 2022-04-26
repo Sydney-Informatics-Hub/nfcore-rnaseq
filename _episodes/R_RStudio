@@ -8,10 +8,10 @@ questions:
 - "Experimental design?"
 
 objectives:
-- "Learn basics of the RNASeq experimental protocols"
+- "An introduction to R,  Rstudio and how to run RStudio interactively on a Nimbus instance"
 keypoints:
 - XXX
 ---
 
 
-This episode is gives an overview the background for **RNASeq** analysis and the sequencing methodology. 
+This episode gets you a quick introduction to R, RStudio and running a RStudio interactively on a Nimbus instance. 
