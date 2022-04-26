@@ -32,7 +32,7 @@ Knockout mouse model to study Williams-Beuren Syndrome
 
 
 ## Experimental design
-To improve our understanding of this disease, Corley et al. 2016 created a knockout mouse model of this disease.
+To improve our understanding of this disease (WBS) , Corley et al. 2016 created a knockout mouse model of this disease.
 
 <figure>
   <img src="{{ page.root }}/fig/experimental_design.png" style="margin:10px;height:300px"/>
