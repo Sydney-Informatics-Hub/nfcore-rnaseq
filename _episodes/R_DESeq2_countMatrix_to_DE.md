@@ -101,6 +101,12 @@ normalised_counts<-counts(dds,normalized=TRUE)
 write.table(normalised_counts, "normalised_counts_DeSeq2.tab", sep="\t", col.names=NA, quote=F)
 
 ~~~
+<figure>
+  <img src="{{ page.root }}/fig/PCA.png" style="margin:10px;height:200px"/>
+  <figcaption> Central dogma of molecular biology </figcaption>
+</figure><br>
+
+
 
 ## Generate a list of DE genes
 
@@ -138,6 +144,11 @@ write.table(resSig005_comparison_Wild_vs_KO_FULLMatrix, "res_DeSeq2_FDR0.05_comp
 ~~~
 plotDispEsts(dds_comparison_Wild_vs_KO_FULLMatrix, ylim = c(1e-6,1e3) )
 ~~~
+
+<figure>
+  <img src="{{ page.root }}/fig/Dispersion.png" style="margin:10px;height:200px"/>
+  <figcaption> Central dogma of molecular biology </figcaption>
+</figure><br>
 
 ## Plot histogram of p-values
 ~~~
