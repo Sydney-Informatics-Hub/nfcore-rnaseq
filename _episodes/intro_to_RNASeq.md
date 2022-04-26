@@ -1,20 +1,27 @@
 ---
 title: "Introduction to RNASeq"
-teaching: 30
+teaching: 10
 exercises: 10
 questions:
-- "How do we communicate with the HPC scheduler?"
+- "What is RNASeq?"
+- "What are the steps to check sequencing quality?"
+- "How can we align the rnaseq reads and visualise the alignements"
+- "How can we perform Differential Expression Analysis"
 objectives:
-- "Learn how to write job submission scripts."
+- "Learn how to perform RNASeq analysis"
 keypoints:
-- "The PBS 'scheduler' runs jobs on Artemis, according to _**directives**_ supplied by you."
-- "The '**Project**' directive governs everything that happens on Artemis."
-- "The **resources** you request affect when your job can run, and if it will finish!"
+- XXX
 ---
 
-This episode introduces the **_scheduler_** and how to communicate with it. Primarily, this will be through '_**PBS directives**_' in _Bash_ scripts.
+This episode is an introduction to  **RNASeq_** . 
 
-## The 'scheduler'
+<figure>
+  <img src="{{ page.root }}/fig/rnaseq_workflow.png" style="margin:10px;height:200px"/>
+  <figcaption> A cartoon scheduler -- compute jobs will try to be resourced as efficiently as possible! </figcaption>
+</figure><br>
+
+
+## Why sequence RNA ?
 
 **Artemis HPC** is a _computer cluster_ -- a network -- whose _**resources**_ are assigned to users by a _**scheduler**_. The cluster's resources are the CPUs, RAM and GPUs which belong to all the constituent computers in the network. Curently, Artemis has:
 
