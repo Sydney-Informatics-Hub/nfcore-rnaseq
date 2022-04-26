@@ -4,9 +4,9 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-**Synopsis:** Learn bioinformatics :-)!.
+**Synopsis:** Introduction to nf-core and RNA seq for differential expression
 
-**Target audience:** Students and staff who would like to learn how to run compute jobs on Artemis HPC. Participants must have a valid USyd unikey.
+**Target audience:**  HDRs, researchers, introductory level
 
 **Follow-on courses:** This course is **part one** of the **[Artemis HPC Training Series]({{ site.series_home }})**.
 
@@ -14,7 +14,7 @@ This first lesson is intended as part one of a pair, with ‘_Introduction to th
 
 The third course in the series, [‘_Intermediate Artemis HPC_’]({{ site.sih_pages }}/{{ site.github.repository_name }}), extends users' knowledge of the PBS Pro scheduling system, and builds scripting skills for automating large workflows on HPC.
 
-The final lesson, ['_Matlab on Artemis: The MDCS_']({{ site.sih_pages }}/training.artemis.mdcs), is an optional course for users of MATLAB who would like to submit jobs directly to the cluster from their local computers.
+
 
 **Recorded Lesson:** You can watch the recorded lesson from April 24, 2020, here: [https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa](https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa)
 
