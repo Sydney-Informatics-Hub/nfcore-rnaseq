@@ -3,7 +3,7 @@ title: "Welcome to Artemis HPC"
 teaching: 20
 exercises: 0
 questions:
-- "Who are the Sydney Informatics Hub?"
+- "What is a Nimbus VM?"
 - "What is an 'Artemis'..?"
 objectives:
 - "Learn how to connect to Artemis."
