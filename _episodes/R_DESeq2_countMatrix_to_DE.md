@@ -8,7 +8,7 @@ questions:
 - "Experimental design?"
 
 objectives:
-- "An introduction to R,  Rstudio and how to use it on the nimbus VM instance"
+- "An introduction to R,  Rstudio and how to run RStudio interactively on a Nimbus instance"
 keypoints:
 - XXX
 ---
