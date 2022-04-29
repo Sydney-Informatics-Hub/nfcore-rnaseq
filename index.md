@@ -4,11 +4,11 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-**Synopsis:** Introduction to nf-core and RNA seq for differential expression
+**Synopsis:** Introduction to excecuting nextflow-nfcore pipeline for RNASeq analysis on Pawsey Nimbus instance
 
 **Target audience:**  HDRs, researchers, introductory level
 
-**Follow-on courses:** This course is **part one** of the **[Artemis HPC Training Series]({{ site.series_home }})**.
+**Follow-on courses:** This course is **part two** of the **[Nextflow bioinformatics pipelines Series]({{ site.series_home }})**.
 
 This first lesson is intended as part one of a pair, with ‘_Introduction to the Artemis HPC_’ in the morning and [‘_Data transfer and RDS for HPC_’]({{ site.sih_pages }}/training.artemis.rds) in the afternoon. It is recommended to register for both, however you may choose to take these courses on separate days as suits your needs.
 
