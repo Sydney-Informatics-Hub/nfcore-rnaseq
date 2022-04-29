@@ -33,7 +33,7 @@ Our full CoC, with incident reporting guidelines, is available at https://pages.
 * Nandan Deshpande
 * Nathaniel Butterworth
 * Tracy Chew
-* Georgie
+* Georgie Samaha
 
 Contact [sih.training@sydney.edu.au](mailto:sih.training@sydney.edu.au).
 
