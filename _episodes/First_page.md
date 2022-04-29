@@ -3,10 +3,12 @@ title: "Welcome to BioCommons nfcore-rnaseq workshop"
 teaching: 10
 exercises: 0
 questions:
-- "BioCommons Australia"
+- "What is this workshop about?"
+- "What is BioCommons Australia?"
+- "Why develop/use Bioinformatics pipelines?"
 - "What is nextflow and nfcore?"
 - "Which nfocore pipeline? - nfcore-rnaseq"
-- "Where can you deply it? - Nimbus VM instance"
+- "Where can you deploy the nfcore-rnase? - Nimbus VM instance"
 
 
 objectives:
@@ -27,7 +29,7 @@ This episode introduces the main aims of this workshop 1) Nextflow 2) A nextflow
 ## Which nfocore pipeline? - nfcore-rnaseq
 
 
-## Where can you deply it? - Nimbus VM instance
+## Where can you deploy it? - Nimbus VM instance
 
 ___
 **Notes**   
