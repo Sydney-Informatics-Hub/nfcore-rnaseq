@@ -1,5 +1,5 @@
 ---
-title: "Scripting with 'R' "
+title: "DE gene list to functional enrichment -> Gene Ontology and pathways "
 teaching: 10
 exercises: 10
 questions:
