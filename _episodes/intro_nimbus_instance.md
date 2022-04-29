@@ -17,7 +17,10 @@ This episode introduces the [Cloud computing at Pawsey](https://pawseysupercompu
 # The Pawsey Supercomputing Research Centre
 
 
+# What is a Nimbus instance?
 
+
+# How do I securely log into a Nimbus instance?
 
 
 ___
