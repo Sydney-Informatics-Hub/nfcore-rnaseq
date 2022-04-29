@@ -17,19 +17,22 @@ keypoints:
 This episode is gives an overview the background for **RNASeq** analysis and the sequencing methodology. 
 
 <figure>
-  <img src="{{ page.root }}/fig/central_dogma.png" style="margin:10px;height:300px"/>
   <figcaption> Central dogma of molecular biology </figcaption>
+  <img src="{{ page.root }}/fig/central_dogma.png" style="margin:10px;height:300px"/>
+  
 </figure><br>
 
 
 <figure>
-  <img src="{{ page.root }}/fig/sample_to_sequencer.png" style="margin:10px;height:300px"/>
   <figcaption> Sample to sequencer </figcaption>
+  <img src="{{ page.root }}/fig/sample_to_sequencer.png" style="margin:10px;height:300px"/>
+  
 </figure><br>
 
 
 <figure>
+  figcaption> RNA/DNA library construction </figcaption>
   <img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:300px"/>
-  <figcaption> RNA/DNA library construction </figcaption>
+  <
 </figure><br> 
 
