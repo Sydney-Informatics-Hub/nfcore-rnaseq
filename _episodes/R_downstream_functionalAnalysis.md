@@ -3,12 +3,12 @@ title: "Scripting with 'R' "
 teaching: 10
 exercises: 10
 questions:
-- "What is R?"
-- "What is RStudio"
-- "Experimental design?"
+- "What is Gene enrichment (GO) analysis"
+- "What is Gene Ontology"
+- "How can you visualise GO terms or KEGG pathway as networks ?"
 
 objectives:
-- "An introduction to R,  Rstudio and how to run RStudio interactively on a Nimbus instance"
+- "Gene enrichment analysis"
 keypoints:
 - XXX
 ---
