@@ -1,5 +1,5 @@
 ---
-title: "Scripting with 'R' "
+title: "DeSeq2 analysis in R"
 teaching: 10
 exercises: 10
 questions:
