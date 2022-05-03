@@ -1,14 +1,14 @@
 ---
-title: "Count matrix (nfcore-rnaseq) to Differentially expressed genes"
+title: "nfcore-rnaseq TO RStudio"
 teaching: 10
 exercises: 10
 questions:
-- "How to read-in a count matrix from nfcore-sarek in R?"
-- "How to use the DeSeq2 module to perform differential expression (DE) analysis"
+- "How to read-in a count-matrix from nfcore-sarek in R?"
+- "How to use the DESeq2 module to perform differential expression (DE) analysis"
 
 
 objectives:
-- "use RStudio on Nimbus instance to process the count matrix from nfcore-rnaseq and geenrate list of differentially expressed genes."
+- "Use RStudio on Nimbus instance to process the count-matrix from nfcore-rnaseq and generate list of differentially expressed genes."
 keypoints:
 - XXX
 ---
