@@ -4,8 +4,6 @@ teaching: 10
 exercises: 10
 questions:
 - "What is nfcore-rnaseq"
-- ""
-- "What is nfcore?"
 
 objectives:
 - "Introduction to nextflow and nfcore"
