@@ -10,13 +10,16 @@ questions:
   - "Run the nfcore-rnaseq pipeline on Pawsey Nimbus VM instance"
 
 
+
 objectives:
-- "Discuss the three ."
-- 
+- ""
 keypoints:
+- XXX
 
 ---
+
 This episode introduces the main aims of this workshop 1) Nextflow 2) A nextflow-nfcore pipeline 'rnaseq' 3) Deploying the nfcore-rnaseq on Nimbus VM instance.
+
 
 # Aims of this workshop
 - An introduction to RNA Sequencing and RNASeq analysis.
