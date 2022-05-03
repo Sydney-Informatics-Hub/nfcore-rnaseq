@@ -4,8 +4,8 @@ teaching: 10
 exercises: 10
 questions:
 - "What is R?"
-- "What is RStudio"
-- "Experimental design?"
+- "RStudio environment"
+
 
 objectives:
 - "An introduction to R,  Rstudio and how to run RStudio interactively on a Nimbus instance"
