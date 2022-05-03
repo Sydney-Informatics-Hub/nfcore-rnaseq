@@ -4,11 +4,10 @@ teaching: 10
 exercises: 0
 questions:
 - "What is this workshop about?"
-- "What is Australian BioCommons?"
-- "Sydney Informatics Hub (SIH)"
-- "Why use Bioinformatics pipelines?"
-- "What is nextflow and what is nfcore?"
-- "How to run the nfcore-rnaseq on Pawsey Nimbus VM instance"
+  - "Bioinformatics pipelines"
+  - "RNASeq analysis"
+  - "Nextflow and nfcore"
+  - "Run the nfcore-rnaseq pipeline on Pawsey Nimbus VM instance"
 
 
 objectives:
@@ -26,16 +25,12 @@ This episode introduces the main aims of this workshop 1) Nextflow 2) A nextflow
 - Downstream analysis using R programming.
 
 
-# BioCommons Australia
-
+# Australian BioCommons
+The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/)that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science. 
 
 # The Sydney Informatics Hub
 The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.edu.au/research/facilities.html)_ of the University of Sydney. Core Research Facilities centralise essential research equipment and services that would otherwise be too expensive or impractical for individual Faculties to purchase and maintain. The classic example might be the room-size electron-microscopes, built into specialised rooms in the Sydney Microscopy & Microanalysis unit.
 
-<figure>
-  <img src="{{ page.root }}/fig/01_crf.png" style="margin:10px;height:400px"/>
-  <figcaption> USyd Core Research Facilities <a href="https://sydney.edu.au/research/facilities.html">https://sydney.edu.au/research/facilities.html</a></figcaption>
-</figure><br>
 
 # Nextflow and nfcore
 
