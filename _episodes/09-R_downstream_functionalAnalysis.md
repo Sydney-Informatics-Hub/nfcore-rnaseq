@@ -4,8 +4,8 @@ teaching: 10
 exercises: 10
 questions:
 - "What is Gene enrichment analysis?"
-- "Gene Ontology and pathways "
-- "Visualise functional enrichments as networks ?"
+- "Gene Ontology (GO) and pathways "
+- "How to visualise functionally enriched GOs/pathways as networks?"
 
 objectives:
 - "Gene enrichment analysis"
