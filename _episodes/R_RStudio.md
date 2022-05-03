@@ -1,5 +1,5 @@
 ---
-title: "Scripting with 'R' "
+title: "Programming using 'R' "
 teaching: 10
 exercises: 10
 questions:
@@ -14,7 +14,7 @@ keypoints:
 ---
 
 
-This episode gets you a quick introduction to R, RStudio and running a RStudio interactively on a Nimbus instance. 
+This episode gives you a quick introduction to R, RStudio and running a RStudio interactively on a Nimbus instance. 
 
 
 
@@ -24,4 +24,5 @@ This episode gets you a quick introduction to R, RStudio and running a RStudio i
 
 ## Interactive RStudio on nimbus VM instance 
 ~~~
+
 ~~~
