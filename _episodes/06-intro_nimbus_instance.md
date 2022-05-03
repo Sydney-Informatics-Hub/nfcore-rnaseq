@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Nimbus: Cloud computing at Pawsey"
+title: "Introduction to Nimbus: Cloud computing at Pawsey"
 teaching: 10
 exercises: 0
 questions:
