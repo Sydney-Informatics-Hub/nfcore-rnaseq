@@ -4,25 +4,22 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-**Synopsis:** Introduction to excecuting nextflow-nfcore pipeline for RNASeq analysis on Pawsey Nimbus instance
+**Synopsis:** Introduction to excecuting nextflow-nfcore pipeline for RNASeq analysis on a Pawsey Nimbus instance
 
 **Target audience:**  HDRs, researchers, introductory level
 
 **Follow-on courses:** This course is **part two** of the **[Nextflow bioinformatics pipelines Series]({{ site.series_home }})**.
 
-This first lesson is intended as part one of a pair, with ‘_Introduction to the Artemis HPC_’ in the morning and [‘_Data transfer and RDS for HPC_’]({{ site.sih_pages }}/training.artemis.rds) in the afternoon. It is recommended to register for both, however you may choose to take these courses on separate days as suits your needs.
-
-The third course in the series, [‘_Intermediate Artemis HPC_’]({{ site.sih_pages }}/{{ site.github.repository_name }}), extends users' knowledge of the PBS Pro scheduling system, and builds scripting skills for automating large workflows on HPC.
-
+This first lesson was 
+It is recommended to register for both, however you may choose to take these courses on separate days as suits your needs.
 
 
-**Recorded Lesson:** You can watch the recorded lesson from April 24, 2020, here: [https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa](https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa)
+
+**Recorded Lesson:** You can watch the recorded lesson from October 24, 2022, here: [https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa](https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa)
 
 > ## Prerequisites
 > Competency on the Unix/Linux command line:
->
-> * If you are interested in learning HPC but have no Unix/Linux command-line skills, you MUST first take an [Introduction to Unix/Linux](https://intersect.org.au/training/course/unix) course.
->
+
 > **OWN LAPTOP REQUIRED**.
 {: .prereq}
 
