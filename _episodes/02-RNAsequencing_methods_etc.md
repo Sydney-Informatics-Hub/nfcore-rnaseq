@@ -4,8 +4,8 @@ teaching: 10
 exercises: 10
 questions:
 - "Why sequence RNA?"
+- "RNA/DNA library construction"
 - "Sample preparation and sequencing"
-- "Experimental design?"
 
 objectives:
 - "Learn basics of the RNASeq experimental protocols"
