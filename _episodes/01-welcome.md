@@ -21,10 +21,10 @@ keypoints:
 This episode introduces the main aims of this workshop 1) Nextflow 2) A nextflow-nfcore pipeline 'rnaseq' 3) Deploying the nfcore-rnaseq on Nimbus VM instance.
 
 ## Aims of this workshop
-### RNASeq analysis
-### Using nextflow workflows for rnaseq analysis
-### Deploying nfcore-rnaseq on Pawsey-Nimbu VM intance
-### Downstream analysis using R
+- RNASeq analysis
+- Using nextflow workflows for rnaseq analysis
+- Deploying nfcore-rnaseq on Pawsey-Nimbu VM intance
+- Downstream analysis using R
 
 
 ## BioCommons Australia
