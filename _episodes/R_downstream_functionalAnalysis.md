@@ -1,11 +1,11 @@
 ---
-title: "DE gene list to functional enrichment -> Gene Ontology and pathways "
+title: "Functional enrichment analysis"
 teaching: 10
 exercises: 10
 questions:
-- "What is Gene enrichment (GO) analysis"
-- "What is Gene Ontology"
-- "How can you visualise GO terms or KEGG pathway as networks ?"
+- "What is Gene enrichment analysis?"
+- "Gene Ontology and pathways "
+- "Visualise functional enrichments as networks ?"
 
 objectives:
 - "Gene enrichment analysis"
