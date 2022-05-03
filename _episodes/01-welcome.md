@@ -6,10 +6,9 @@ questions:
 - "What is this workshop about?"
 - "What is Australian BioCommons?"
 - "Sydney Informatics Hub (SIH)"
-- "Why develop/use Bioinformatics pipelines?"
-- "What is nextflow and nfcore?"
-- "Which nfocore pipeline? - nfcore-rnaseq"
-- "Where can you deploy the nfcore-rnase? - Nimbus VM instance"
+- "Why use Bioinformatics pipelines?"
+- "What is nextflow and what is nfcore?"
+- "How to run the nfcore-rnaseq on Pawsey Nimbus VM instance"
 
 
 objectives:
