@@ -3,9 +3,9 @@ title: "Scripting with 'R' "
 teaching: 10
 exercises: 10
 questions:
-- "What is R?"
-- "What is RStudio"
-- "Experimental design?"
+- "Programming in R?"
+- "RStudio environment"
+
 
 objectives:
 - "use RStudio on Nimbus instance to process the count matrix from nfcore-rnaseq and geenrate list of differentially expressed genes."
