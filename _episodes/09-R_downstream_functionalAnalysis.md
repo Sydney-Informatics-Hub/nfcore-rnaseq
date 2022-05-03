@@ -3,12 +3,11 @@ title: "Functional enrichment analysis"
 teaching: 10
 exercises: 10
 questions:
-- "What is Gene enrichment analysis?"
-- "Gene Ontology (GO) and pathways "
-- "How to visualise functionally enriched GOs/pathways as networks?"
+- "How t perform Gene enrichment analysis?"
+- "How to visualise functionally enriched Gene ontologies (GO) / pathways as networks?"
 
 objectives:
-- "Gene enrichment analysis"
+- "Understand and perform Gene enrichment analysis for DE genes."
 keypoints:
 - XXX
 ---
