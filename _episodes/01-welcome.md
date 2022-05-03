@@ -28,25 +28,25 @@ The Australian BioCommons is an ambitious new [digital infrastructure capability
 The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.edu.au/research/facilities.html)_ of the University of Sydney. Core Research Facilities centralise essential research equipment and services that would otherwise be too expensive or impractical for individual Faculties to purchase and maintain. The classic example might be the room-size electron-microscopes, built into specialised rooms in the Sydney Microscopy & Microanalysis unit.
 
 
-# Aims of this workshop
+# Main topics to be covered 
 
 ## RNAseq analysis
 - An introduction to RNA Sequencing and RNAseq analysis.
 
-### Nextflow and nfcore
+## Nextflow and nfcore
 - An introduction to nextflow 
 
-### nfcore-rnaseq
+## nfcore-rnaseq
 - Why use nextflow workflows for RNASeq analysis.
-- nfcore-rnaseq
+- nfcore-rnaseq - Pre-processing and generating a count-matrix for Differential expression (DE) analysis.
 
-### Pawsey-Nimbus VM intance
+## Pawsey-Nimbus VM intance
 - Pawsey Supercomputing center
-- How to deploy the pipeline nfcore-rnaseq on Pawsey-Nimbsus VM intance.
+- How to deploy the pipeline nfcore-rnaseq on 'Pawsey-Nimbsus VM intance'.
 
-### R and RStudio 
+## R and RStudio 
 - An introduction to R and RStudio
-- Downstream analysis using R programming.
+- Downstream (DE) analysis using RStudio on 'Pawsey-Nimbsus VM intance'.
 
 
 ___
