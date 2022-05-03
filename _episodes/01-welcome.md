@@ -4,7 +4,8 @@ teaching: 10
 exercises: 0
 questions:
 - "What is this workshop about?"
-- "What is BioCommons Australia?"
+- "What is Australian BioCommons?"
+- "Sydney Informatics Hub (SIH)"
 - "Why develop/use Bioinformatics pipelines?"
 - "What is nextflow and nfcore?"
 - "Which nfocore pipeline? - nfcore-rnaseq"
@@ -18,6 +19,9 @@ keypoints:
 
 ---
 This episode introduces the main aims of this workshop 1) Nextflow 2) A nextflow-nfcore pipeline 'rnaseq' 3) Deploying the nfcore-rnaseq on Nimbus VM instance.
+
+# Aims of this workshop
+
 
 
 ## BioCommons Australia
