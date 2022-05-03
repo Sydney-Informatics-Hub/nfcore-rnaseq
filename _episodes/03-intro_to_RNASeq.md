@@ -27,12 +27,7 @@ This episode is gives an overview to  **RNASeq** analysis .
 - Experimental design considerations
 - Analysis workflow overview
 
-## Nextflow nfcore-rnaseq
-- What is nfcore-rnaseq?
-- How does nfcore-rnaseq streamline the RNASeq analysis?
-- Where can we run the nfcore-rnaseq pipeline?
-- What are the computations requirements for nfcore-rnaseq?
-- What is the output from nfcore-rnaseq?
+
 
 
 ## Differential Expression Analysis
