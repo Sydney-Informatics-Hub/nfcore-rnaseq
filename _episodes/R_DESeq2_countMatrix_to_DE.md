@@ -3,8 +3,8 @@ title: "Scripting with 'R' "
 teaching: 10
 exercises: 10
 questions:
-- "Programming in R?"
-- "RStudio environment"
+- "How to read-in a count matrix from nfcore-sarek in R?"
+- "How to use the DeSeq2 module to perform differential expression (DE) analysis"
 
 
 objectives:
