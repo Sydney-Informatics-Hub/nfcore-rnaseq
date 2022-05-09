@@ -14,3 +14,15 @@ keypoints:
 
 ---
 This episode introduces the user to the basic excecution steps of the nfcore-rnaseq pipeline on the Nimbus instance
+
+## Quick Start
+
+~~~
+nextflow run nf-core/rnaseq \
+    --input samplesheet.csv \
+    --outdir <OUTDIR> --genome GRCh38 
+    -profile <docker/singularity/podman/shifter/charliecloud/conda/institute>
+~~~
+
+
+
