@@ -26,7 +26,7 @@ nfcore-rnaseq is a bioinformatics pipeline that can be used to analyse RNA seque
 - The workflow in nfcore-rnaseq
 
 <figure>
-  <img src="{{ page.root }}/fig/nf-core-rnaseq_metro_map_grey.png" style="margin:10px;height:200px"/>
+  <img src="{{ page.root }}/fig/nf-core-rnaseq_metro_map_grey.png" style="margin:10px;height:300px"/>
   <figcaption> nfcore-rnaseq pipeline summary </figcaption>
 </figure><br>
 
