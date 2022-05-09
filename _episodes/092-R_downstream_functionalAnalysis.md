@@ -1,5 +1,5 @@
 ---
-title: "Functional enrichment analysis ..."
+title: "Enrichment analysis - R"
 teaching: 10
 exercises: 10
 questions:
