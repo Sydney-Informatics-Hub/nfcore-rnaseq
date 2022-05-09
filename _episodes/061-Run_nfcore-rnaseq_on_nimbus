@@ -13,4 +13,4 @@ objectives:
 keypoints:
 
 ---
-This episode introduces the [Cloud computing at Pawsey](https://pawseysupercomputing.github.io/using-nimbus/02-cloud-at-pawsey/index.html) and how to get connected.
+This episode introduces the user to the basic excecution steps of the nfcore-rnaseq pipeline on the Nimbus instance
