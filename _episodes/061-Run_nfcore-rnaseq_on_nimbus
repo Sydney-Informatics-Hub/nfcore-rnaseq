@@ -1,0 +1,16 @@
+---
+title: "Excecute nfcore-rnaseq on a Nimbus instance"
+teaching: 10
+exercises: 0
+questions:
+- "Create/use a design samplesheet"
+- "How to start a basic nfcore-rnaseq run!"
+- "Usage options"
+
+objectives:
+- "Understanding how to run the nfcore-rnaseq on Nimbus"
+
+keypoints:
+
+---
+This episode introduces the [Cloud computing at Pawsey](https://pawseysupercomputing.github.io/using-nimbus/02-cloud-at-pawsey/index.html) and how to get connected.
