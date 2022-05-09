@@ -1,13 +1,14 @@
 ---
-title: "Welcome to BioCommons nfcore-rnaseq workshop"
+title: "nfcore-rnaseq workshop"
 teaching: 10
 exercises: 0
 questions:
-- "What is this workshop about?"
-- "Bioinformatics pipelines"
-- "RNASeq analysis"
-- "Nextflow and nfcore"
-- "Run the nfcore-rnaseq pipeline on Pawsey Nimbus VM instance"
+- "Australian BioCommons and Sydney Informatic Hub"
+- "What is RNASeq analysis?"
+- "Running scientific workflows : Nextflow and nfcore"
+- "Supercomputing at Pawsey"
+- "Excecute 'nfcore-rnaseq pipeline' on 'Pawsey Nimbus VM instance'"
+- "Using R with RStudio for data analysis" 
 
 
 
