@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the course - 'nfcore/rnaseq pipelines on Pawsey Nimbus VMs'"
+title: "Welcome - 'Deploy nfcore/rnaseq pipelines'"
 teaching: 10
 exercises: 10
 questions:
