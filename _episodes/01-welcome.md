@@ -8,7 +8,7 @@ questions:
 - "What is nextflow?"  
 - "What resources does Pawsey Supercomputing Center offer?"
 - "How to deploy 'nfcore-rnaseq  pipeline' on a 'Pawsey Nimbus VM instance'"
-- "How to Use R with RStudio for downstream data-analysis?" 
+- "How to perform downstream data-analysis in R/RStudio?" 
 
 
 objectives:
