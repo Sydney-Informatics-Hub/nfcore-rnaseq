@@ -1,25 +1,24 @@
 ---
-title: "nfcore-rnaseq workshop"
+title: "RNA sequencing"
 teaching: 10
-exercises: 0
+exercises: 10
 questions:
-- "Australian BioCommons and Sydney Informatic Hub"
-- "What is RNASeq analysis?"
-- "Running scientific workflows : Nextflow and nfcore"
-- "Supercomputing at Pawsey"
-- "Excecute 'nfcore-rnaseq pipeline' on 'Pawsey Nimbus VM instance'"
-- "Using R with RStudio for data analysis" 
-
+- "Who are Australian BioCommons and Sydney Informatic Hub"
+- "Why do RNASeq analysis?"
+- "What is nextflow?"  
+- "Whats done at Pawsey Supercomputing Center"
+- "How to deploy 'nfcore-rnaseq  pipeline' on a 'Pawsey Nimbus VM instance'"
+- "How to Use R with RStudio for data analysis?" 
 
 
 objectives:
-- ""
+- "Executing nextflow pipelines on a VM instance"
 keypoints:
 - XXX
-
 ---
 
-This episode introduces the main aims of this workshop 1) Nextflow 2) A nextflow-nfcore pipeline 'rnaseq' 3) Deploying the nfcore-rnaseq on Nimbus VM instance.
+
+This episode introduces the main aims of this workshop, which are 1) Nextflow 2) A nextflow-nfcore pipeline 'rnaseq' 3) Deploying the nfcore-rnaseq on Nimbus VM instance.
 
 
 # Australian BioCommons
