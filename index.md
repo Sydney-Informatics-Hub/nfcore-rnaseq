@@ -18,7 +18,7 @@ It is recommended to register for both course, however you may choose to take th
 **Recorded Lesson:** You can watch the recorded lesson from October 24, 2022, here: [https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa](https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa)
 
 > ## Prerequisites
-> Introduction to usage of [Unix/Linux command line](https://datacarpentry.org/shell-genomics/) and Introduction to [R/RStudio](https://datacarpentry.org/genomics-r-intro/)
+> Introduction to [Unix/Linux command line](https://datacarpentry.org/shell-genomics/) and Introduction to [R/RStudio](https://datacarpentry.org/genomics-r-intro/)
 
 > **OWN LAPTOP REQUIRED**.
 {: .prereq}
