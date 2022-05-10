@@ -22,5 +22,9 @@ This episode is gives an overview of nextflow and nfcore.
 - It allows the adaptation of pipelines written in the most common scripting languages.
 
 ## nfcore
-[nfcore](https://nf-co.re/) is a community effort to collect a curated set of analysis pipelines built using Nextflow.
+- [nfcore](https://nf-co.re/) is a community effort to collect a curated set of analysis pipelines built using Nextflow.
+- It is a diverse project spread across many groups.
+- Currently [65 pipelines](https://nf-co.re/pipelines) are available as a part of nfcore.
+- Some of the most commonly used nfcore pipelines include [nfcore-rnaseq](https://nf-co.re/rnaseq), [nfcore-sarek](https://nf-co.re/sarek) and [nfcore-ampliseq](https://nf-co.re/ampliseq) amongst otheres.
+- A set of nfcore [companion tools](https://nf-co.re/tools/) are made available to assist with common tasks associated with nfcore pipeline usage. 
 
