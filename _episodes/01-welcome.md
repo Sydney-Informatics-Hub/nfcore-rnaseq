@@ -1,7 +1,7 @@
 ---
 title: "Welcome - 'Deploy nfcore-rnaseq pipeline on Pawsey Nimbus Vm instance'"
 teaching: 10
-exercises: 10
+exercises: 0
 questions:
 - "Who are : Australian BioCommons and Sydney Informatic Hub"
 - "Why do RNASeq analysis?"
