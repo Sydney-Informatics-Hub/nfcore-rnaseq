@@ -1,5 +1,5 @@
 ---
-title: "Welcome - 'Deploy nfcore-rnaseq pipeline on Pawsey Nimbus Vm instance'"
+title: "Welcome - 'Deploy nfcore-rnaseq pipeline on Pawsey Nimbus VM instance'"
 teaching: 10
 exercises: 0
 questions:
