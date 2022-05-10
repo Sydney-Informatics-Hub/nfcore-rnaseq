@@ -40,14 +40,14 @@ The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.e
 - An introduction to RNA Sequencing and RNAseq analysis.
 
 ## Nextflow and nfcore
-- An introduction to nextflow 
+- An introduction to nextflow and nfcore.
 
 ## nfcore-rnaseq
 - Why use nextflow workflows for RNASeq analysis.
-- nfcore-rnaseq - Pre-processing and generating a count-matrix for Differential expression (DE) analysis.
+- nfcore-rnaseq :  Pre-processing and generating a count-matrix for Differential Expression (DE) analysis.
 
 ## Pawsey-Nimbus VM intance
-- Pawsey Supercomputing center
+- Pawsey Supercomputing center - what resources does it offer?
 - How to deploy the pipeline nfcore-rnaseq on 'Pawsey-Nimbsus VM intance'.
 
 ## R and RStudio 
