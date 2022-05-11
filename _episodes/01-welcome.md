@@ -24,7 +24,7 @@ This episode introduces the main aims of this workshop, which are 1) Nextflow 2)
 The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/) that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science. 
 
 <figure>
-  <img src="{{ page.root }}/fig/Australian_Biocommons.png" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/Australian_Biocommons.png" style="margin:10px;height:350px"/>
   </figure><br>
 
 # The Sydney Informatics Hub
