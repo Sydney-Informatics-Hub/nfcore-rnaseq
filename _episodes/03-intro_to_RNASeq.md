@@ -36,14 +36,14 @@ This episode gives an overview of  **RNAS-seq** analysis .
 ## How does RNA sequencing work?
   <figure>
   
-  <img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:350px"/>
   <figcaption> RNA/DNA library construction </figcaption>
 </figure><br> 
 
 ## RNA-Seq Analysis - basic workflow overview
 
 <figure>
-  <img src="{{ page.root }}/fig/rnaseq_workflow.png" style="margin:10px;height:300px"/>
+  <img src="{{ page.root }}/fig/rnaseq_workflow.png" style="margin:10px;height:350px"/>
   <figcaption> RNA-Seq analysis workflow </figcaption>
 </figure><br>
 
