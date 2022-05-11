@@ -8,7 +8,7 @@ questions:
 - "Sample preparation and sequencing"
 
 objectives:
-- "Learn basics of the RNASeq experimental protocols"
+- "Learn basics of the RNA-Seq experimental protocols"
 keypoints:
 - XXX
 ---
@@ -31,22 +31,6 @@ This episode gives an overview of RNASeq analysis and the sequencing methodology
 - Thus RNA sequencing (RNA-Seq) uses the capabilities of high-throughput sequencing methods to provide insight into the transcriptome of a cell. 
   
 
-<figure>
-  <img src="{{ page.root }}/fig/sample_to_sequencer.png" style="margin:10px;height:300px"/>
-    <figcaption> Sample to sequencer </figcaption>
-</figure><br>
-  
-- Identify the biological question.  
-- Experiment design - e.g. 'Treated' versus 'Untreated' samples
-- Isolating RNA, preparing RNA library (Single/Paired-end)
-- Sequencing 
-
-  
-  <figure>
-  
-  <img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:300px"/>
-  <figcaption> RNA/DNA library construction </figcaption>
-</figure><br> 
 
 
 
