@@ -40,6 +40,12 @@ This episode gives an overview of  **RNAS-seq** analysis .
   <figcaption> RNA/DNA library construction </figcaption>
 </figure><br> 
 
+## Experimental Design
+- A **design** which provides statistically sound results and which can provide answers to the experimental questions.
+- **Replicates**   : Technical vs Biological.
+- **Data amount/type** : Read length, single vs paired end, 
+                    stranded vs unstranded, desired depth of coverage.
+
 ## RNA-Seq Analysis - basic workflow overview
 
 <figure>
@@ -48,10 +54,6 @@ This episode gives an overview of  **RNAS-seq** analysis .
 </figure><br>
 
 
-## Differential Expression Analysis
-- Obtaining the count data from nfcore-rnaseq.
-- Differential expression analysis using DESeq2.
-- How do we perform functional enrichment analysis using R/RStudio?
 
 
 
