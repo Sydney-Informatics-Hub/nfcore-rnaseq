@@ -1,5 +1,5 @@
 ---
-title: "nfcore-rnaseq : Parameters"
+title: "nfcore-rnaseq : Output"
 teaching: 10
 exercises: 0
 questions:
@@ -12,4 +12,4 @@ objectives:
 keypoints:
 
 ---
-This episode introduces the user to the nfcore-rnaseq output
+This episode introduces the output produced by the nfcore-rnaseq pipeline
