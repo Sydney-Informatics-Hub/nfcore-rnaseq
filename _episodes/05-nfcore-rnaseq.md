@@ -11,14 +11,14 @@ keypoints:
 - XXX
 ---
 
-This episode is gives an overview of the nfcore-rnaseq pipeline.
+This episode gives an overview of the nfcore-rnaseq pipeline.
 
 ## nfcore-rnaseq
 
-- What is nfcore-rnaseq?
-
-nfcore-rnaseq is a bioinformatics pipeline that can be used to analyse RNA sequencing data obtained from organisms with a reference genome and annotation.
-
+- nfcore-rnaseq is a bioinformatics pipeline that can be used to analyse RNA sequencing data obtained from organisms with a reference genome and annotation.
+- The pipeline is built using [Nextflow](https://www.nextflow.io/)
+-  It uses [Docker](https://www.docker.com/)/[Singularity](https://sylabs.io/) containers making installation trivial and results highly reproducible. 
+-  Citation : doi: [10.5281/zenodo.1400710](https://doi.org/10.5281/zenodo.1400710)
 
 # Workflow in nfcore-rnaseq
 
