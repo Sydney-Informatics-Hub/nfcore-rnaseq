@@ -34,13 +34,14 @@ The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.e
   <img src="{{ page.root }}/fig/SIH.png" style="margin:10px;height:300px"/>
   </figure><br>
 
-# Main topics to be covered 
 
 ## RNAseq analysis
-- An introduction to RNA Sequencing and RNAseq analysis.
+- Introduction to RNA Sequencing 
+- Introduction to RNAseq analysis.
 
 ## Nextflow and nfcore
-- An introduction to nextflow and nfcore.
+- Introduction to nextflow 
+- Introduction to nfcore.
 
 ## nfcore-rnaseq
 - Why use nextflow workflows for RNASeq analysis.
@@ -51,7 +52,7 @@ The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.e
 - How to deploy the pipeline nfcore-rnaseq on 'Pawsey-Nimbsus VM intance'.
 
 ## R and RStudio 
-- An introduction to R and RStudio
+- Introduction to R and RStudio
 - Downstream (DE) analysis using RStudio on 'Pawsey-Nimbsus VM intance'.
 
 
