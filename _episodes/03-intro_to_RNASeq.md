@@ -13,21 +13,39 @@ keypoints:
 - XXX
 ---
 
-This episode is gives an overview to  **RNASeq** analysis . 
+This episode gives an overview of  **RNAS-seq** analysis . 
+
+## Introduction to RNA-Seq
+
+- RNA sequencing (RNA-Seq) is revolutionizing the study of the transcriptome. 
+- A highly sensitive and accurate tool for measuring expression across the transcriptome.
+- It allows the researcher to interrogate the transcriptome under different disease states, in response to therapeutics, under different environmental conditions etc.
+
+## RNA-sample to sequencer ... 
+
+<figure>
+  <img src="{{ page.root }}/fig/sample_to_sequencer.png" style="margin:10px;height:300px"/>
+    <figcaption> Sample to sequencer </figcaption>
+</figure><br>
+  
+- Identify the biological question.  
+- Experiment design - e.g. 'Treated' versus 'Untreated' samples
+- Isolating RNA, preparing RNA library (Single/Paired-end)
+- Sequencing 
+
+## How does RNA sequencing work?
+  <figure>
+  
+  <img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:300px"/>
+  <figcaption> RNA/DNA library construction </figcaption>
+</figure><br> 
+
+## RNA-Seq Analysis - basic workflow overview
 
 <figure>
   <img src="{{ page.root }}/fig/rnaseq_workflow.png" style="margin:10px;height:300px"/>
-  <figcaption> A basic RNASeq analysis workflow </figcaption>
+  <figcaption> RNA-Seq analysis workflow </figcaption>
 </figure><br>
-
-
-## Introduction ?
-- What is RNASeq?
-- How is the transcriptome sequenced?
-- Experimental design considerations
-- Analysis workflow overview
-
-
 
 
 ## Differential Expression Analysis
