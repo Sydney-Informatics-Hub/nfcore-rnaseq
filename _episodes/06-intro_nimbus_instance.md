@@ -14,13 +14,13 @@ keypoints:
 This episode introduces the [Cloud computing at Pawsey](https://pawseysupercomputing.github.io/using-nimbus/02-cloud-at-pawsey/index.html) and how to get connected.
 
 
-# The Pawsey Supercomputing Research Centre
+## The Pawsey Supercomputing Research Centre
 
 
-# What is a Nimbus instance?
+## What is a Nimbus instance?
 
 
-# How do I securely log into a Nimbus instance?
+## How do I securely log into a Nimbus instance?
 
 
 ___
