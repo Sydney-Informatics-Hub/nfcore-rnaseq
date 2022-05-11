@@ -46,6 +46,12 @@ This episode gives an overview of  **RNAS-seq** analysis .
 - **Data amount/type** : Read length, single vs paired end, 
                     stranded vs unstranded, desired depth of coverage.
 
+<figure>
+  <img src="{{ page.root }}/fig/Design.png" style="margin:10px;height:350px"/>
+  <figcaption> RNA-Seq analysis workflow </figcaption>
+</figure><br>
+
+
 ## RNA-Seq Analysis - basic workflow overview
 
 <figure>
