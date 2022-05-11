@@ -36,7 +36,8 @@ This episode gives an overview of RNASeq analysis and the sequencing methodology
     <figcaption> Sample to sequencer </figcaption>
 </figure><br>
   
-- Simple experiment design - Treated versus untreated
+- Identify the biological question.  
+- Experiment design - e.g. 'Treated' versus 'Untreated' samples
 - Isolating RNA, preparing RNA library (Single/Paired-end)
 - Sequencing 
 
