@@ -3,7 +3,7 @@ title: "Welcome - 'Deploy nfcore-rnaseq pipeline on Pawsey Nimbus VM instance'"
 teaching: 10
 exercises: 0
 questions:
-- "Who are we : Australian BioCommons and Sydney Informatic Hub"
+- "Who are we : Australian BioCommons, Sydney Informatic Hub, Pawsey Supercomputing center"
 - "Why do RNASeq analysis?"
 - "What is nextflow?"  
 - "What resources does Pawsey Supercomputing Center offer?"
@@ -41,24 +41,25 @@ The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.e
   </figure><br>
 
 
-## RNAseq analysis
-- Introduction to RNA Sequencing 
-- Introduction to RNAseq analysis.
+## RNA-Seq analysis
+- Why do RNA Sequencing?
+- What is RNA-Seq analysis?
 
 ## Nextflow and nfcore
-- Introduction to nextflow 
-- Introduction to nfcore.
+- What is nextflow?
+- What is nfcore?
 
 ## nfcore-rnaseq
-- Why use nextflow workflows for RNASeq analysis.
-- nfcore-rnaseq :  Pre-processing and generating a count-matrix for Differential Expression (DE) analysis.
+- Why use nextflow workflows for RNA-Seq analysis.
+- Introduction to nfcore-rnaseq.
+- Pre-processing and generating a count-matrix for Differential Expression (DE) analysis.
 
 ## Pawsey-Nimbus VM intance
-- What is a Pawsey-Nimbus VM ?
+- What is a Pawsey-Nimbus VM?
 - How to deploy the pipeline nfcore-rnaseq on 'Pawsey-Nimbsus VM intance'.
 
 ## R and RStudio 
-- Introduction to R and RStudio
+- Introduction to R and RStudio.
 - Downstream (DE) analysis using RStudio on 'Pawsey-Nimbsus VM intance'.
 
 
