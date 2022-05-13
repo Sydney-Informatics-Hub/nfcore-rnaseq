@@ -28,7 +28,8 @@ You will need to create a [samplesheet](https://nf-co.re/rnaseq/3.7/usage#sample
   <img src="{{ page.root }}/fig/samplesheet_description.png" style="margin:10px;height:200px"/>
 </figure><br>
 
-The samplesheet required for today's analysis is a lot simpler. It is already created and placed in the folder XXX.
+The samplesheet required for today's analysis is a lot simpler, as we are using single-end reads. 
+This samplesheet is already created and placed in the folder XXX.
 
 
 ## Quick Start
