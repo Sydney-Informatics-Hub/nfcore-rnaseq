@@ -36,6 +36,9 @@ The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.e
 
 
 # Pawsey Supercomputing center
+
+A few lines about the center
+
 <figure>
   <img src="{{ page.root }}/fig/Pawsey_supercomputing_center.png" style="margin:10px;height:300px"/>
   </figure><br>
