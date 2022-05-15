@@ -1,14 +1,13 @@
 ---
-title: "Welcome - 'Deploy nfcore-rnaseq pipeline on Pawsey Nimbus VM instance'"
+title: "Welcome - 'Run nfcore-rnaseq pipeline on Pawsey Nimbus VM instance'"
 teaching: 10
 exercises: 0
 questions:
-- "Who are we : Australian BioCommons, Sydney Informatic Hub, Pawsey Supercomputing center"
+- "Who are we : Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
 - "Why do RNASeq analysis?"
-- "What is nextflow?"  
-- "What resources does Pawsey Supercomputing Center offer?"
-- "How to deploy 'nfcore-rnaseq  pipeline' on a 'Pawsey Nimbus VM instance'"
-- "How to perform downstream data-analysis in R/RStudio?" 
+- "What is Nextflow?"  
+- "How to run 'nfcore-rnaseq  pipeline' on a 'Pawsey Nimbus VM instance'"
+- "How to perform downstream data-analysis using R/RStudio?" 
 
 
 objectives:
@@ -17,7 +16,7 @@ keypoints:
 - XXX
 ---
 
-This episode introduces the main aims of this workshop, which are 1) Nextflow 2) A nextflow-nfcore pipeline 'rnaseq' 3) Deploying the nfcore-rnaseq on Nimbus VM instance.
+This episode introduces the main aims of this workshop, which are 1) Nextflow 2) The Nextflow pipeline 'nfcore-rnaseq' 3) Running the nfcore-rnaseq on Nimbus VM instance.
 
 
 # Australian BioCommons
@@ -45,7 +44,7 @@ A few lines about the center
 
 
 ## RNA-Seq analysis
-- Why do RNA Sequencing?
+- Why RNA Sequencing?
 - What is RNA-Seq analysis?
 
 ## Nextflow and nfcore
