@@ -1,7 +1,7 @@
 ---
 title: "Introduction to nextflow"
 teaching: 10
-exercises: 10
+exercises: 0
 questions:
 - "Bioinformatics pipelines : why?"
 - "What is nextflow?"
