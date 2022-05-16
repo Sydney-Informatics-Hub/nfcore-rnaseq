@@ -15,11 +15,9 @@ keypoints:
 > ## GO analysis 
 > Specify your **project**.
 > ~~~
-> ## Change #1
 > #PBS -P Training
 > # P adj < 0.05 
 > sig <- res_tidy.DE[res_tidy.DE$p.adjusted < 0.05, ]
-
 > # Upregulated: LFC > 1, remove NAs
 > sig.up <- sig[sig$estimate > 1, ]
 > sig.up <- na.omit(sig.up)
@@ -27,7 +25,6 @@ keypoints:
 > names(sig.up.LFC) <- sig.up$gene
 > # Sort by LFC, decreasing
 > sig.up.LFC <- sort(sig.up.LFC, decreasing = TRUE)
-
 > # Downregulated: LFC < 1, remove NAs
 > sig.dn <- sig[sig$estimate < 1, ]
 > sig.dn <- na.omit(sig.dn)
@@ -36,7 +33,6 @@ keypoints:
 > # Sort by LFC, decreasing
 > sig.dn.LFC <- sort(sig.dn.LFC, decreasing = TRUE)
 > ~~~
-
 > {: .language-bash}
 {: .solution}
 
