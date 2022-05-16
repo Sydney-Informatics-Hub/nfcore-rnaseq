@@ -13,9 +13,7 @@ keypoints:
 ---
 
 > ## GO analysis 
-> Specify your **project**.
 > ~~~
-> #PBS -P Training
 > # P adj < 0.05 
 > sig <- res_tidy.DE[res_tidy.DE$p.adjusted < 0.05, ]
 > # Upregulated: LFC > 1, remove NAs
