@@ -1,11 +1,9 @@
 ---
 title: "RNA sequencing"
 teaching: 10
-exercises: 10
+exercises: 0
 questions:
 - "Why sequence RNA?"
-- "RNA/DNA library construction"
-- "Sample preparation and sequencing"
 
 objectives:
 - "Learn basics of the RNA-Seq experimental protocols"
