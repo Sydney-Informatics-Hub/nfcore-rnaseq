@@ -37,7 +37,7 @@ keypoints:
 
 
 
-> ### Upregulated 
+> ## Upregulated 
 > ~~~
 > ego.up <- enrichGO(gene = names(sig.up.LFC),
 >                       OrgDb = org.Mm.eg.db, 
@@ -52,7 +52,7 @@ keypoints:
 {: .solution}
 
 
-> ### Dotplot
+> ## Dotplot
 > ~~~
 > dotplot(ego.up, showCategory=20)
 > ~~~
