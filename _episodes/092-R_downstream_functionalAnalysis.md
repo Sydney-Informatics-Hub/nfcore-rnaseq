@@ -11,8 +11,9 @@ objectives:
 keypoints:
 - XXX
 ---
+# Gene Ontology analysis
 
-> ## GO analysis - get list of UP and DOWN -regulated genes 
+> ## Get the lists of UP and DOWN -regulated genes 
 > ```
 > # P adj < 0.05 
 > sig <- res_tidy.DE[res_tidy.DE$p.adjusted < 0.05, ]
@@ -34,8 +35,8 @@ keypoints:
 > {: .language-bash}
 {: .solution}
 
-
-> ## Upregulated genes - Run enrichGO
+## Upregulated genes
+> ## Run enrichGO
 > ~~~
 > ego.up <- enrichGO(gene = names(sig.up.LFC),
 >                       OrgDb = org.Mm.eg.db, 
@@ -50,7 +51,7 @@ keypoints:
 {: .solution}
 
 
-> ## Upregulated genes - Dotplot
+> ## Generate Dotplot
 > ~~~
 > dotplot(ego.up, showCategory=20)
 > ~~~
@@ -61,7 +62,7 @@ keypoints:
 > {: .language-bash}
 {: .solution}
 
-> ## Upregulated genes - cnetplot
+> ## Generate cnetplot
 > ~~~
 > # Depicts the linkages of genes and biological concepts (e.g. GO terms or KEGG pathways) as a network.
 > cnetplot(ego.up, 
@@ -77,8 +78,8 @@ keypoints:
 > {: .language-bash}
 {: .solution}
 
-
-> ## Downregulated - Run enrichGO
+## Downregulated genes
+> ## Run enrichGO
 > ~~~
 > ego.dn <- enrichGO(gene = names(sig.dn.LFC),
 >                       OrgDb = org.Mm.eg.db, 
@@ -92,7 +93,7 @@ keypoints:
 > {: .language-bash}
 {: .solution}
 
-> ## Downregulated - Dotplot
+> ## Generate Dotplot
 > ~~~
 > dotplot(ego.dn, showCategory=20)
 > ~~~
@@ -104,7 +105,7 @@ keypoints:
 {: .solution}
 
 
-> ## Downregulated - cnetplot
+> ## Generate cnetplot
 > A cnetplot() depicts the linkages of genes and biological concepts (e.g. GO terms or KEGG pathways) as a network.
 > ~~~
 > cnetplot(ego.dn, 
