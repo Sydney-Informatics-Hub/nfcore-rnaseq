@@ -3,11 +3,9 @@ title: "Introduction to RNASeq"
 teaching: 10
 exercises: 10
 questions:
-- "What is RNASeq?"
-- "How to - Sample preparation, RNA library construction, and sequencing? "
-- "How to do - quality control of the sequencing data?"
-- "How to - Align the RNASeq read-data to the reference and visualise the alignments?"
-- "How to - Perform Differential Expression Analysis?"
+- "What is RNA-Seq?"
+- "RNA-Seq : Sample preparation, RNA library construction, and sequencing? "
+- "RNA-Seq analysis : Basic workflow"
 objectives:
 - "Learn how to perform RNASeq analysis"
 keypoints:
