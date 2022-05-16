@@ -1,7 +1,7 @@
 ---
 title: "Introduction to RNASeq"
 teaching: 10
-exercises: 10
+exercises: 0
 questions:
 - "What is RNA-Seq?"
 - "RNA-Seq : Sample preparation, RNA library construction, and sequencing? "
