@@ -13,7 +13,7 @@ keypoints:
 ---
 
 > ## GO analysis 
-> ~~~
+> ```
 > # P adj < 0.05 
 > sig <- res_tidy.DE[res_tidy.DE$p.adjusted < 0.05, ]
 > # Upregulated: LFC > 1, remove NAs
@@ -30,7 +30,7 @@ keypoints:
 > names(sig.dn.LFC) <- sig.dn$gene
 > # Sort by LFC, decreasing
 > sig.dn.LFC <- sort(sig.dn.LFC, decreasing = TRUE)
-> ~~~
+> ```
 > {: .language-bash}
 {: .solution}
 
