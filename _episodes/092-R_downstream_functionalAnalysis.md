@@ -12,29 +12,35 @@ keypoints:
 - XXX
 ---
 
+> ## GO analysis 
+> Specify your **project**.
+> ~~~
+> ## Change #1
+> #PBS -P Training
+> # P adj < 0.05 
+> sig <- res_tidy.DE[res_tidy.DE$p.adjusted < 0.05, ]
 
-## GO analysis 
+> # Upregulated: LFC > 1, remove NAs
+> sig.up <- sig[sig$estimate > 1, ]
+> sig.up <- na.omit(sig.up)
+> sig.up.LFC <- sig.up$estimate
+> names(sig.up.LFC) <- sig.up$gene
+> # Sort by LFC, decreasing
+> sig.up.LFC <- sort(sig.up.LFC, decreasing = TRUE)
 
-```
-# P adj < 0.05 
-sig <- res_tidy.DE[res_tidy.DE$p.adjusted < 0.05, ]
+> # Downregulated: LFC < 1, remove NAs
+> sig.dn <- sig[sig$estimate < 1, ]
+> sig.dn <- na.omit(sig.dn)
+> sig.dn.LFC <- sig.dn$estimate
+> names(sig.dn.LFC) <- sig.dn$gene
+> # Sort by LFC, decreasing
+> sig.dn.LFC <- sort(sig.dn.LFC, decreasing = TRUE)
+> ~~~
 
-# Upregulated: LFC > 1, remove NAs
-sig.up <- sig[sig$estimate > 1, ]
-sig.up <- na.omit(sig.up)
-sig.up.LFC <- sig.up$estimate
-names(sig.up.LFC) <- sig.up$gene
-# Sort by LFC, decreasing
-sig.up.LFC <- sort(sig.up.LFC, decreasing = TRUE)
+> {: .language-bash}
+{: .solution}
 
-# Downregulated: LFC < 1, remove NAs
-sig.dn <- sig[sig$estimate < 1, ]
-sig.dn <- na.omit(sig.dn)
-sig.dn.LFC <- sig.dn$estimate
-names(sig.dn.LFC) <- sig.dn$gene
-# Sort by LFC, decreasing
-sig.dn.LFC <- sort(sig.dn.LFC, decreasing = TRUE)
-```
+
 
 
 ### Upregulated 
