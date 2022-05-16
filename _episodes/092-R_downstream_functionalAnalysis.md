@@ -35,8 +35,6 @@ keypoints:
 {: .solution}
 
 
-
-
 > ## Upregulated 
 > ~~~
 > ego.up <- enrichGO(gene = names(sig.up.LFC),
@@ -52,7 +50,7 @@ keypoints:
 {: .solution}
 
 
-> ### Dotplot
+> ## Dotplot
 > ~~~
 > dotplot(ego.up, showCategory=20)
 > ~~~
@@ -63,7 +61,7 @@ keypoints:
 > {: .language-bash}
 {: .solution}
 
-> ### cnetplot
+> ## cnetplot
 > ~~~
 > # Depicts the linkages of genes and biological concepts (e.g. GO terms or KEGG pathways) as a network.
 > cnetplot(ego.up, 
@@ -80,38 +78,44 @@ keypoints:
 {: .solution}
 
 
-### Downregulated
-~~~
-ego.dn <- enrichGO(gene = names(sig.dn.LFC),
-                      OrgDb = org.Mm.eg.db, 
-                      keyType = 'SYMBOL',
-                      readable = FALSE,
-                      ont = "ALL",
-                      pAdjustMethod = "BH",
-                      pvalueCutoff = 0.05, 
-                      qvalueCutoff = 0.2)
-~~~
+> ## Downregulated
+> ~~~
+> ego.dn <- enrichGO(gene = names(sig.dn.LFC),
+>                       OrgDb = org.Mm.eg.db, 
+>                       keyType = 'SYMBOL',
+>                       readable = FALSE,
+>                       ont = "ALL",
+>                       pAdjustMethod = "BH",
+>                       pvalueCutoff = 0.05, 
+>                       qvalueCutoff = 0.2)
+> ~~~
+> {: .language-bash}
+{: .solution}
 
-### Dotplot
-~~~
-dotplot(ego.dn, showCategory=20)
-~~~
+> ## Dotplot
+> ~~~
+> dotplot(ego.dn, showCategory=20)
+> ~~~
+> <figure>
+>   <img src="{{ page.root }}/fig/DotPlot_down.png" style="margin:10px;height:400px"/>
+>   <figcaption> A basic RNASeq analysis workflow </figcaption>
+> </figure><br>
+> {: .language-bash}
+{: .solution}
 
-<figure>
-  <img src="{{ page.root }}/fig/DotPlot_down.png" style="margin:10px;height:400px"/>
-  <figcaption> A basic RNASeq analysis workflow </figcaption>
-</figure><br>
+> ## cnetplot
+> ~~~
+> cnetplot(ego.dn, 
+>          categorySize="pvalue", 
+>          foldChange=sig.dn.LFC,
+>          cex_label_gene = 0.5,
+>          showCategory = 5)
+>~~~
+><figure>
+>  <img src="{{ page.root }}/fig/cnePlot_down.png" style="margin:10px;height:400px"/>
+>  <figcaption> A basic RNASeq analysis workflow </figcaption>
+></figure><br>
+> {: .language-bash}
+{: .solution}
 
-### cnetplot
-~~~
-cnetplot(ego.dn, 
-         categorySize="pvalue", 
-         foldChange=sig.dn.LFC,
-         cex_label_gene = 0.5,
-         showCategory = 5)
-~~~
 
-<figure>
-  <img src="{{ page.root }}/fig/cnePlot_down.png" style="margin:10px;height:400px"/>
-  <figcaption> A basic RNASeq analysis workflow </figcaption>
-</figure><br>
