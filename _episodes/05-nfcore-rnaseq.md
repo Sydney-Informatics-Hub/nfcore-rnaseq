@@ -1,7 +1,7 @@
 ---
 title: "Introduction to nfcore-rnaseq"
 teaching: 10
-exercises: 10
+exercises: 0
 questions:
 - "What is nfcore-rnaseq"
 
@@ -11,7 +11,7 @@ keypoints:
 - XXX
 ---
 
-This episode gives an overview of the nfcore-rnaseq pipeline.
+This episode provides an overview of the nfcore-rnaseq pipeline.
 
 ## nfcore-rnaseq
 
