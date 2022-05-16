@@ -1,5 +1,5 @@
 ---
-title: "Welcome - 'Run nfcore-rnaseq pipeline on a Pawsey Nimbus VM instance'"
+title: "Welcome to the nfcore-rnaseq workshop"
 teaching: 10
 exercises: 0
 questions:
@@ -43,24 +43,24 @@ A few lines about the center
   </figure><br>
 
 
-## RNA-Seq analysis
+# RNA-Seq analysis
 - Why RNA Sequencing?
 - What is RNA-Seq analysis?
 
-## Nextflow and nfcore
+# Nextflow and nfcore
 - What is nextflow?
 - What is nfcore?
 
-## nfcore-rnaseq
+# nfcore-rnaseq
 - Why use nextflow workflows for RNA-Seq analysis.
 - Introduction to nfcore-rnaseq.
 - Pre-processing and generating a count-matrix for Differential Expression (DE) analysis.
 
-## Pawsey-Nimbus VM intance
+# Pawsey-Nimbus VM intance
 - What is a Pawsey-Nimbus VM?
 - How to deploy the pipeline nfcore-rnaseq on 'Pawsey-Nimbsus VM intance'.
 
-## R and RStudio 
+# R and RStudio 
 - Introduction to R and RStudio.
 - Downstream (DE) analysis using RStudio on 'Pawsey-Nimbsus VM intance'.
 
