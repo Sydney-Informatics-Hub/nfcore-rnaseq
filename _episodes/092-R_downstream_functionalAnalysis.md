@@ -52,7 +52,7 @@ keypoints:
 {: .solution}
 
 
-> ## Dotplot
+> ### Dotplot
 > ~~~
 > dotplot(ego.up, showCategory=20)
 > ~~~
@@ -72,7 +72,6 @@ keypoints:
 >          cex_label_gene = 0.5,
 >          showCategory = 5)
 > ~~~
-
 > <figure>
 >   <img src="{{ page.root }}/fig/cnePlot_up.png" style="margin:10px;height:400px"/>
 >   <figcaption> A basic RNASeq analysis workflow </figcaption>
