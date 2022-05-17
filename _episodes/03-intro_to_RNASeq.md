@@ -40,7 +40,7 @@ This episode gives an overview of  **RNAS-seq** analysis .
 </figure><br> 
 
 ## Stranded vs Unstranded protocols
-- There are two types of RNA sequencing sample preparation protocols: stranded and unstranded. 
+- There are two types of RNA sequencing sample preparation protocols: [stranded and unstranded](https://www.ecseq.com/support/ngs/how-do-strand-specific-sequencing-protocols-work). 
 - It is important to know which you have in the downstream analysis.
 - Stranded protocols retain strandedness information (whether your RNA was transcribed from the forward or reverse strand). 
 - Unstranded protocols do not retain this information.
