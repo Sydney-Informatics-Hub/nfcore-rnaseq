@@ -12,7 +12,7 @@ keypoints:
 ---
 
 
-This episode gives an overview of RNA sequencing methodology. 
+This episode gives an overview of what is RNA. 
 
 <figure>
   <img src="{{ page.root }}/fig/central_dogma.png" style="margin:10px;height:300px" align="center"/>
