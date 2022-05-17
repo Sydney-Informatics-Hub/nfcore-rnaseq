@@ -64,7 +64,7 @@ A few lines about the center
 
 ___
 **Notes**   
-<sup id="f1">1[↩](#a1)</sup> Such as 'Cygwin', 'MinGW', or even the _very handy_ ['Git for Windows'](https://gitforwindows.org/).
+<sup id="f1">1[↩](#a1)</sup> Here is a list of ['nfcore pipelines'](https://nf-co.re/pipelines/).
 
 ___
 <br>
