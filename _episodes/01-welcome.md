@@ -16,21 +16,15 @@ keypoints:
 - XXX
 ---
 
-
-| Australian BioCommons | The Sydney Informatics Hub |Pawsey Supercomputing center |
-| --- | --- |--- |
-| <img src="{{ page.root }}/fig/Australian_Biocommons.png" style="margin:10px;height:300px"/> <br> | <img align="center" src="{{ page.root }}/fig/SIH.png" style="margin:10px;height:300px"/> <br>| <img align="center" src="{{ page.root }}/fig/Pawsey_supercomputing_center.png" style="margin:10px;height:300px"/> <br> |
-|The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/) that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science. | The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.edu.au/research/facilities.html)_ of the University of Sydney. They provide support, training, and expertise in research data management, statistics, data science, software engineering, simulation, visualisation, bioinformatics, and research computing. | The [Pawsey Supercomputing Research Centre](https://pawsey.org.au/) is an unincorporated joint venture between CSIRO, Curtin University, Edith Cowan University, Murdoch University and The University of Western Australia.  It is supported by the Western Australian and Federal Governments. The Centre is one of two, Tier-1, High Performance Computing facilities in Australia, whose primary function is to accelerate scientific research for the benefit of the nation. |
-
 ## Australian BioCommons
-The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/) that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science. 
+The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/) that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science.
 
 <figure>
   <img src="{{ page.root }}/fig/Australian_Biocommons.png" style="margin:10px;height:350px"/>
   </figure><br>
 
 ## The Sydney Informatics Hub
-The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.edu.au/research/facilities.html)_ of the University of Sydney. Core Research Facilities centralise essential research equipment and services that would otherwise be too expensive or impractical for individual Faculties to purchase and maintain. The classic example might be the room-size electron-microscopes, built into specialised rooms in the Sydney Microscopy & Microanalysis unit.
+The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.edu.au/research/facilities.html)_ of the University of Sydney. They provide support, training, and expertise in research data management, statistics, data science, software engineering, simulation, visualisation, bioinformatics, and research computing.
 
 <figure>
   <img src="{{ page.root }}/fig/SIH.png" style="margin:10px;height:300px"/>
@@ -39,7 +33,7 @@ The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.e
 
 ## Pawsey Supercomputing center
 
-A few lines about the center
+The [Pawsey Supercomputing Research Centre](https://pawsey.org.au/) is an unincorporated joint venture between CSIRO, Curtin University, Edith Cowan University, Murdoch University and The University of Western Australia.  It is supported by the Western Australian and Federal Governments. The Centre is one of two, Tier-1, High Performance Computing facilities in Australia, whose primary function is to accelerate scientific research for the benefit of the nation.
 
 <figure>
   <img src="{{ page.root }}/fig/Pawsey_supercomputing_center.png" style="margin:10px;height:300px"/>
