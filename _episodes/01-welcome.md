@@ -4,7 +4,7 @@ teaching: 10
 exercises: 0
 questions:
 - "Our introduction : Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
-- "Why do RNASeq analysis?"
+- "Why do RNA-Seq analysis?"
 - "What is Nextflow?"  
 - "How to run 'nfcore-rnaseq  pipeline' on a 'Pawsey Nimbus VM instance'"
 - "How to perform downstream data-analysis using R/RStudio?" 
