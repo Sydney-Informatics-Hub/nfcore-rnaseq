@@ -4,8 +4,8 @@ teaching: 10
 exercises: 10
 questions:
 - "What is functional enrichment analysis?"
-- "How to perform functional enrichment analysis?"
-- "How to visualise functionally enriched Gene ontologies (GO) / pathways as networks?"
+- "What are Gene Ontologies?"
+
 
 objectives:
 - "Understand what is Functional enrichment analysis."
@@ -27,10 +27,10 @@ identify genes’ involvement in novel pathways or networks by grouping genes to
 - These databases typically categorize genes into groups based on shared function, or involvement in a pathway, or presence in a specific cellular location, or other categorizations, e.g. functional pathways, etc.
 - Essentially, known genes are binned into categories that have been consistently named (controlled vocabulary) based on how the gene has been annotated functionally. These categories are independent of any organism, however each organism has distinct categorizations available.
 
-  <figure>
-<img src="{{ page.root }}/fig/overrepresentation_analysis.png" style="margin:10px;height:350px"/>
+<figure>
+  <img src="{{ page.root }}/fig/overrepresentation_analysis.png" style="margin:10px;height:350px"/>
   <figcaption> Over-representation of a category </figcaption>
-</figure><br> 
+</figure><br>
 
 - To determine whether any categories are over-represented, you can determine the probability of having the observed proportion of genes associated with a specific category in your gene list based on the proportion of genes associated with the same category in the background set (gene categorizations for the appropriate organism).
 
