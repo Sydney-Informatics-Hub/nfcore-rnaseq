@@ -39,6 +39,16 @@ This episode gives an overview of  **RNAS-seq** analysis .
   <figcaption> RNA/DNA library construction </figcaption>
 </figure><br> 
 
+## Stranded vs Unstranded protocols
+- There are two types of RNA sequencing sample preparation protocols: stranded and unstranded. 
+- It is important to know which you have in the downstream analysis.
+- Stranded protocols retain strandedness information (whether your RNA was transcribed from the forward or reverse strand). 
+- Unstranded protocols do not retain this information.
+
+<img src="{{ page.root }}/fig/Strand-Specific-Protocols-2.png" style="margin:10px;height:350px"/>
+  <figcaption> Comparison of mapped reads from an unstranded/stranded library </figcaption>
+</figure><br> 
+
 ## Experimental Design
 - A **design** which provides statistically sound results and which can provide answers to the experimental questions.
 - **Replicates**   : Technical vs Biological.
