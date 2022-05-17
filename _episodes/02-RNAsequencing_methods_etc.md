@@ -17,8 +17,6 @@ This episode gives an overview of RNA sequencing methodology.
 
 <figure>
  <img src="{{ page.root }}/fig/central_dogma.png" style="margin:10px;height:300px" align="center"/>
-  
- <center> Genes, DNA, mRNA, proteins and central dogma </center>
 <figure>
 
 
