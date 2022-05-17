@@ -1,5 +1,5 @@
 ---
-title: "Introduction to RNASeq"
+title: "Introduction to RNA-Seq"
 teaching: 10
 exercises: 0
 questions:
