@@ -34,8 +34,7 @@ This episode gives an overview of  **RNAS-seq** analysis .
 
 ## How does RNA sequencing work?
   <figure>
-  
-  <img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:350px"/>
+<img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:350px"/>
   <figcaption> RNA/DNA library construction </figcaption>
 </figure><br> 
 
@@ -45,6 +44,7 @@ This episode gives an overview of  **RNAS-seq** analysis .
 - Stranded protocols retain strandedness information (whether your RNA was transcribed from the forward or reverse strand). 
 - Unstranded protocols do not retain this information.
 
+<figure>
 <img src="{{ page.root }}/fig/Strand-Specific-Protocols-2.png" style="margin:10px;height:350px"/>
   <figcaption> Comparison of mapped reads from an unstranded/stranded library </figcaption>
 </figure><br> 
