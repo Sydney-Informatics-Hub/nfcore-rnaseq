@@ -19,8 +19,8 @@ keypoints:
 
 | Australian BioCommons | The Sydney Informatics Hub |Pawsey Supercomputing center |
 | --- | --- |--- |
+| <figure> <img src="{{ page.root }}/fig/Australian_Biocommons.png" style="margin:10px;height:150px"/></figure><br> | <figure><img src="{{ page.root }}/fig/SIH.png" style="margin:10px;height:150px"/> </figure><br>| <figure> <img src="{{ page.root }}/fig/Pawsey_supercomputing_center.png" style="margin:10px;height:150px"/> </figure><br> |
 | The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/) that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science. | The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.edu.au/research/facilities.html)_ of the University of Sydney. Core Research Facilities centralise essential research equipment and services that would otherwise be too expensive or impractical for individual Faculties to purchase and maintain. The classic example might be the room-size electron-microscopes, built into specialised rooms in the Sydney Microscopy & Microanalysis unit. | A few lines about the center |
-| <figure> <img src="{{ page.root }}/fig/Australian_Biocommons.png" style="margin:10px;height:350px"/></figure><br> | <figure><img src="{{ page.root }}/fig/SIH.png" style="margin:10px;height:300px"/> </figure><br>| <figure> <img src="{{ page.root }}/fig/Pawsey_supercomputing_center.png" style="margin:10px;height:300px"/> </figure><br> |
 
 ## Australian BioCommons
 The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/) that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science. 
