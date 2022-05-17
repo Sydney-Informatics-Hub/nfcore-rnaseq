@@ -12,15 +12,15 @@ keypoints:
 ---
 
 
-This episode gives an overview of RNASeq analysis and the sequencing methodology. 
+This episode gives an overview of RNA sequencing methodology. 
 
-<figure>
+
  <p align="center"> 
   <img src="{{ page.root }}/fig/central_dogma.png" style="margin:10px;height:300px" align="center"/>
   
-<figcaption> Genes, DNA, mRNA, proteins and central dogma </figcaption>
+<center> Genes, DNA, mRNA, proteins and central dogma </center>
 
-</figure>
+
 </p>
 
 <br>
