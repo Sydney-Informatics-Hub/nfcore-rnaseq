@@ -11,7 +11,10 @@ objectives:
 keypoints:
 - XXX
 ---
-# Gene Ontology analysis
+## clusterProfiler
+- We will be using clusterProfiler to perform over-representation analysis on GO terms associated with our list of significant genes. 
+- The tool takes as input a significant gene list and a background gene list and performs statistical enrichment analysis using hypergeometric testing.
+- The basic arguments allow the user to select the appropriate organism and GO ontology (BP, CC, MF) to test.
 
 > ## Get the lists of UP and DOWN -regulated genes 
 > ```
