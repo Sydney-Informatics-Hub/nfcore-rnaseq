@@ -3,7 +3,7 @@ title: "Welcome to the nfcore-rnaseq workshop"
 teaching: 10
 exercises: 0
 questions:
-- "Who are we : Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
+- "Our introduction : Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
 - "Why do RNASeq analysis?"
 - "What is Nextflow?"  
 - "How to run 'nfcore-rnaseq  pipeline' on a 'Pawsey Nimbus VM instance'"
@@ -11,7 +11,7 @@ questions:
 
 
 objectives:
-- "Executing nextflow pipelines on a VM instance"
+- "Executing nextflow pipeline 'nfcore-rnaseq' on a virtual machine (VM) instance"
 keypoints:
 - XXX
 ---
@@ -19,14 +19,14 @@ keypoints:
 This episode introduces the main aims of this workshop, which are 1) Nextflow 2) The Nextflow pipeline 'nfcore-rnaseq' 3) Running the nfcore-rnaseq on Nimbus VM instance.
 
 
-# Australian BioCommons
+## Australian BioCommons
 The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/) that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science. 
 
 <figure>
   <img src="{{ page.root }}/fig/Australian_Biocommons.png" style="margin:10px;height:350px"/>
   </figure><br>
 
-# The Sydney Informatics Hub
+## The Sydney Informatics Hub
 The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.edu.au/research/facilities.html)_ of the University of Sydney. Core Research Facilities centralise essential research equipment and services that would otherwise be too expensive or impractical for individual Faculties to purchase and maintain. The classic example might be the room-size electron-microscopes, built into specialised rooms in the Sydney Microscopy & Microanalysis unit.
 
 <figure>
@@ -34,7 +34,7 @@ The Sydney Informatics Hub (SIH) is a _[Core Research Facility](https://sydney.e
   </figure><br>
 
 
-# Pawsey Supercomputing center
+## Pawsey Supercomputing center
 
 A few lines about the center
 
@@ -43,24 +43,24 @@ A few lines about the center
   </figure><br>
 
 
-# RNA-Seq analysis
+## RNA-Seq analysis
 - Why RNA Sequencing?
 - What is RNA-Seq analysis?
 
-# Nextflow and nfcore
+## Nextflow and nfcore
 - What is nextflow?
 - What is nfcore?
 
-# nfcore-rnaseq
+## nfcore-rnaseq
 - Why use nextflow workflows for RNA-Seq analysis.
 - Introduction to nfcore-rnaseq.
 - Pre-processing and generating a count-matrix for Differential Expression (DE) analysis.
 
-# Pawsey-Nimbus VM intance
+## Pawsey-Nimbus VM intance
 - What is a Pawsey-Nimbus VM?
 - How to deploy the pipeline nfcore-rnaseq on 'Pawsey-Nimbsus VM intance'.
 
-# R and RStudio 
+## R and RStudio 
 - Introduction to R and RStudio.
 - Downstream (DE) analysis using RStudio on 'Pawsey-Nimbsus VM intance'.
 
