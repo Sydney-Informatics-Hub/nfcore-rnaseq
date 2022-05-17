@@ -16,9 +16,6 @@ keypoints:
 - XXX
 ---
 
-This episode introduces the main aims of this workshop, which are 1) Nextflow 2) The Nextflow pipeline 'nfcore-rnaseq' 3) Running the nfcore-rnaseq on Nimbus VM instance.
-
-
 ## Australian BioCommons
 The Australian BioCommons is an ambitious new [digital infrastructure capability](https://www.biocommons.org.au/) that is enhancing Australian research in its ability to understand the molecular basis of life across environmental, agricultural and biomedical science. 
 
