@@ -16,8 +16,8 @@ This episode gives an overview of  **RNAS-seq** analysis .
 
 ## Introduction to RNA-Seq
 
-- RNA sequencing (RNA-Seq) is revolutionizing the study of the transcriptome. 
-- A highly sensitive and accurate tool for measuring expression across the transcriptome.
+- RNA sequencing (RNA-Seq) is a revolutionary method used to study the transcriptome. 
+- It is a highly sensitive and accurate tool for for simultaneously measuring and comparing the expression of tens of thousands of genes in multiple samples.
 - It allows the researcher to interrogate the transcriptome under different disease states, in response to therapeutics, under different environmental conditions etc.
 
 ## RNA-sample to sequencer ... 
@@ -68,7 +68,11 @@ This episode gives an overview of  **RNAS-seq** analysis .
   <figcaption> RNA-Seq analysis workflow </figcaption>
 </figure><br>
 
-
+- Multiple steps are involved in the analysis of RNA-Seq data. 
+- The first step is sequencing reads (Output format - [FASTQ](https://www.drive5.com/usearch/manual7/fastq_files.html) files). 
+- Pre-processing for quality control (QC).
+- These are usually aligned to a reference genome. 
+- The number of reads mapped to each gene can then be counted. This results in a table of counts, which is what we perform statistical analyses on to determine differentially expressed genes and pathways.
 
 
 
