@@ -6,7 +6,8 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 
 **Synopsis:** Introduction to excecuting the nextflow-nfcore pipeline for RNASeq analysis on a Pawsey Nimbus VM instance
 
-**Target audience:**  HDRs, researchers, introductory/intermediate level
+**Target audience:**  HDRs, researchers who have, or will soon acquire, RNA-seq short read data that they need to analyse themselves. No prior experience with RNA-seq analysis is required.
+
 
 **Follow-on courses:** This course is **part two** of the **[Nextflow bioinformatics pipelines Series]({{ site.series_home }})**.
 
