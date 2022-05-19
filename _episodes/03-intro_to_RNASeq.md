@@ -71,7 +71,7 @@ This episode gives an overview of  **RNAS-seq** analysis .
 - Multiple steps are involved in the analysis of RNA-Seq data. 
 - The first step is sequencing reads (Output format - [FASTQ](https://www.drive5.com/usearch/manual7/fastq_files.html) files). 
 - Pre-processing for quality control (QC).
-- These are usually aligned to a reference genome. 
+- Aligning reads to a reference genome. 
 - The number of reads mapped to each gene can then be counted. This results in a table of counts, which is what we perform statistical analyses on to determine differentially expressed genes and pathways.
 
 
