@@ -15,7 +15,7 @@ keypoints:
 ---
 This episode introduces the user to the basic excecution steps of the nfcore-rnaseq pipeline on the Nimbus instance
 
-### Recalling the basic RNA-Seq workflow
+### RNA-Seq workflow using nextflow and R
 <figure>
   <img src="{{ page.root }}/fig/original_pipe_to_nextflowing.png" style="margin:10px;height:450px"/>
   <figcaption> RNA-Seq analysis workflow </figcaption>
@@ -41,17 +41,20 @@ You will need to create a [samplesheet](https://nf-co.re/rnaseq/3.7/usage#sample
 The samplesheet required for today's analysis is a lot simpler, as we are using single-end reads. 
 This samplesheet is already created and placed in the folder XXX.
 
-> ### Identify strandedness
->Are the reads in our dataset single-end or paired-end?
-> How can we know this?
-> ```
-> # Command
-> ```
+> ## Identify strandedness
+> Are the reads in our dataset single-end or paired-end?
+> As far as we know this data is unstranded, but as a sanity check you can check the strandness. You can use RSeQC Infer Experiment tool to “guess” the strandness, as explained in the RNA-seq ref-based tutorial.
+> ~~~
+> 
+> 
+> ~~~
+> <figure>
+><img src="{{ page.root }}/fig/our_samplesheet.png" style="margin:10px;height:150px"/>
+></figure><br>
 > {: .language-bash}
 {: .solution}
-<figure>
-  <img src="{{ page.root }}/fig/our_samplesheet.png" style="margin:10px;height:150px"/>
-</figure><br>
+
+
 
 ### Quick Start
 ~~~
