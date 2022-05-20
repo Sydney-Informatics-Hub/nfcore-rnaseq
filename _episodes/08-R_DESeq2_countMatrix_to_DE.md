@@ -187,9 +187,26 @@ MD and Volcano plots for DE results
 {: .solution}
 
 ## Visualising results
+- We might wish to look at the expression levels of certain genes of interest from the experiment perspective.
+- We might also wish to visualise the expression of a few top genes from the differentially expressed genes (DE) gene list. 
+- It will be good to observe if if the expressions of these genes are consistent amongst replicates with reference to the groups.
+
 > ## Stripcharts of top genes
+> ~~~
+
+> ~~~
 > {: .language-bash}
 {: .solution}
+
+## Heatmap of top genes
+> ## Draw Heatmap
+> ~~~
+
+> ~~~
+
+> {: .language-bash}
+{: .solution}
+
 
 
 
