@@ -13,3 +13,7 @@ keypoints:
 
 ---
 This episode introduces the user to the important nfcore-rnaseq parameters
+
+
+## Discuss the main input parameters / tools which can be alternatively used/ommited in the nfcore-rnaseq - pre-processing steps here
+
