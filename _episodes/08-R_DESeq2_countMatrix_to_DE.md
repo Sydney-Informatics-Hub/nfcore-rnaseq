@@ -107,13 +107,14 @@ MD and Volcano plots for DE results
 > {: .language-bash}
 {: .solution}
 
-## Principal Component Analysis (PCA)
+### Principal Component Analysis (PCA)
 - Principal component analysis (PCA) is one among the many techniques adopted for exploring multivariate data like transcriptomes.
 - PCA is an unsupervised analysis where we don’t need to specify the groups and it determines the greatest sources of variation in the data. 
 - A principal components analysis is an example of an unsupervised analysis, where we don’t need to specify the groups. 
 - Ideally we expect that the greatest sources of variation in the data are the treatments/groups we are interested in. 
 - It is also a useful tool for quality control and checking for outliers. 
 
+> ## Transform data for PCA 
 > ~~~
 > vsd <- vst(dds, blind=FALSE)
 > z<-plotPCA(vsd, intgroup=c("condition"))
@@ -128,6 +129,15 @@ MD and Volcano plots for DE results
 > {: .language-bash}
 {: .solution}
 
+### Scree plot
+- A scree plot is also produced that shows how much variation is attributed to each dimension. 
+- e.g. In presence of a batch effect we could see high values for additional dimensions and will need to choose to include batch as an additional factor in the differential expression analysis. 
+
+> ## Highlight the proportion of dimensions
+> ~~~
+> ~~~
+> {: .language-bash}
+{: .solution}
 
 > ## Generate a list of DE genes
 > ~~~
@@ -173,6 +183,11 @@ MD and Volcano plots for DE results
 > ~~~
 > #hist(res_comparison_Wild_vs_KO_FULLMatrix$pvalue, col = "lavender", main = title, xlab = "p-values")
 > ~~~
+> {: .language-bash}
+{: .solution}
+
+## Visualising results
+> ## Stripcharts of top genes
 > {: .language-bash}
 {: .solution}
 
