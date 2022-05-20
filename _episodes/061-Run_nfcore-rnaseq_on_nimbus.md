@@ -17,7 +17,7 @@ This episode introduces the user to the basic excecution steps of the nfcore-rna
 
 ### Recalling the basic RNA-Seq workflow
 <figure>
-  <img src="{{ page.root }}/fig/original_pipe_to_nextflowing.png" style="margin:10px;height:350px"/>
+  <img src="{{ page.root }}/fig/original_pipe_to_nextflowing.png" style="margin:10px;height:450px"/>
   <figcaption> RNA-Seq analysis workflow </figcaption>
 </figure><br>
 
@@ -31,9 +31,8 @@ This episode introduces the user to the basic excecution steps of the nfcore-rna
 You will need to create a [samplesheet](https://nf-co.re/rnaseq/3.7/usage#samplesheet-input) with information about the samples you would like to analyse before running the pipeline. Use this parameter to specify its location. It has to be a comma-separated file with 4 columns, and a header row as shown in the examples below. 
 
 <figure>
-  <img src="{{ page.root }}/fig/elaborate_samplesheet.png" style="margin:10px;height:200px"/>
+  <img src="{{ page.root }}/fig/elaborate_samplesheet.png" style="margin:10px;height:150px"/>
 </figure><br>
-
 
 <figure>
   <img src="{{ page.root }}/fig/samplesheet_description.png" style="margin:10px;height:200px"/>
@@ -42,6 +41,17 @@ You will need to create a [samplesheet](https://nf-co.re/rnaseq/3.7/usage#sample
 The samplesheet required for today's analysis is a lot simpler, as we are using single-end reads. 
 This samplesheet is already created and placed in the folder XXX.
 
+> ### Identify strandedness
+>Are the reads in our dataset single-end or paired-end?
+> How can we know this?
+> ```
+> # Command
+> ```
+> {: .language-bash}
+{: .solution}
+<figure>
+  <img src="{{ page.root }}/fig/our_samplesheet.png" style="margin:10px;height:150px"/>
+</figure><br>
 
 ### Quick Start
 ~~~
