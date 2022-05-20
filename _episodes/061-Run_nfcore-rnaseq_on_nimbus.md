@@ -15,6 +15,17 @@ keypoints:
 ---
 This episode introduces the user to the basic excecution steps of the nfcore-rnaseq pipeline on the Nimbus instance
 
+### Recalling the basic RNA-Seq workflow
+<figure>
+  <img src="{{ page.root }}/fig/original_pipe_to_nextflowing.png" style="margin:10px;height:350px"/>
+  <figcaption> RNA-Seq analysis workflow </figcaption>
+</figure><br>
+
+### nfcore-rnaseq 
+- Turn many steps into just a few.
+- Flexibility in opting for tools at various steps of the analysis.
+- Flexibility in opting for computational platforms and resources.
+
 
 ### Step1: Samplesheet (mandatory) input
 You will need to create a [samplesheet](https://nf-co.re/rnaseq/3.7/usage#samplesheet-input) with information about the samples you would like to analyse before running the pipeline. Use this parameter to specify its location. It has to be a comma-separated file with 4 columns, and a header row as shown in the examples below. 
