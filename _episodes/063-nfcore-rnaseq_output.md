@@ -13,3 +13,7 @@ keypoints:
 
 ---
 This episode introduces the output produced by the nfcore-rnaseq pipeline
+
+
+
+## Discuss the main output graphs produced by nfcore-rnaseq - pre-processing steps here
