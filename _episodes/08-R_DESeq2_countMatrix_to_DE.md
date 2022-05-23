@@ -149,7 +149,7 @@ MD and Volcano plots for DE results
 {: .solution}
 
 
-# DESeqDataSet object in DeSeq2
+### DESeqDataSet object in DeSeq2
 - The object class used by the DESeq2 package to store the read counts and the intermediate estimated quantities during statistical analysis is the DESeqDataSet, which will usually be represented in the code here as an object dds.
 - A DESeqDataSet object must have an associated design formula. 
 - The design formula expresses the variables which will be used in modeling. 
