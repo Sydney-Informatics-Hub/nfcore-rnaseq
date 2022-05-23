@@ -38,7 +38,7 @@ keypoints:
 > {: .language-bash}
 {: .solution}
 
-## Upregulated genes
+## Genes Down-regulated 
 > ## Run enrichGO
 > ~~~
 > ego.up <- enrichGO(gene = names(sig.up.LFC),
@@ -81,7 +81,7 @@ keypoints:
 > {: .language-bash}
 {: .solution}
 
-## Downregulated genes
+## Genes Up-regulated 
 > ## Run enrichGO
 > ~~~
 > ego.dn <- enrichGO(gene = names(sig.dn.LFC),
