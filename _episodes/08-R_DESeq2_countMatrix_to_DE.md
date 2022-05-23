@@ -1,9 +1,11 @@
 ---
-title: "nfcore-rnaseq countmatrix - pre-processing using RStudio"
+title: "Pre-processing of read-countmatrix with R/RStudio"
 teaching: 10
 exercises: 10
 questions:
-- "How to read-in a count-matrix from nfcore-sarek in R?"
+- "How to import a count-matrix (output from nfcore) in R?"
+- "How to generate PCA/Scree plots for exploring multivariate data?"
+- 
 - "How to use the DESeq2 module to perform differential expression (DE) analysis"
 
 
