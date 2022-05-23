@@ -145,6 +145,24 @@ MD and Volcano plots for DE results
 > subsetOfColumns <- c("WT1","WT2","WT3","KO1","KO2","KO3")
 > counttable_comparison_Wild_vs_KO_FULLMatrix <- counttable[subsetOfColumns]
 > View(counttable_comparison_Wild_vs_KO_FULLMatrix)
+> {: .language-bash}
+{: .solution}
+
+
+# DESeqDataSet object in DeSeq2
+- The object class used by the DESeq2 package to store the read counts and the intermediate estimated quantities during statistical analysis is the DESeqDataSet, which will usually be represented in the code here as an object dds.
+- A DESeqDataSet object must have an associated design formula. 
+- The design formula expresses the variables which will be used in modeling. 
+- The formula should be a tilde (~) followed by the variables with plus signs between them (it will be coerced into an formula if it is not already). 
+- The design can be changed later, however then all differential analysis steps should be repeated, as the design formula is used to estimate the dispersions and to estimate the log2 fold changes of the model.
+
+- There are different ways of constructing a DESeqDataSet, depending on what pipeline was used upstream of DESeq2 to generated counts or estimated counts ..
+- DESeqDataSetFromMatrix can be used if you already have a matrix of read counts prepared from another source.
+- Here we are using the count matrix generated using **nfcore-rnaseq.**
+- To use DESeqDataSetFromMatrix, the user should provide the counts matrix, the information about the samples (the columns of the count matrix) as a DataFrame or data.frame, and the design formula.
+
+> ## Identify differentially expressed genes with FDR cutoff 0.05
+> ~~~
 > meta_comparison_Wild_vs_KO_FULLMatrix <-data.frame(row.names=colnames(counttable_comparison_Wild_vs_KO_FULLMatrix),condition=c("Wild","Wild","Wild","KO","KO","KO"))
 > meta_comparison_Wild_vs_KO_FULLMatrix$condition ~ relevel(meta_comparison_Wild_vs_KO_FULLMatrix$condition, ref="Wild")
 > # Define condition
@@ -153,12 +171,6 @@ MD and Volcano plots for DE results
 > dds_comparison_Wild_vs_KO_FULLMatrix<-DESeq(dds_comparison_Wild_vs_KO_FULLMatrix)
 > res_comparison_Wild_vs_KO_FULLMatrix<-results(dds_comparison_Wild_vs_KO_FULLMatrix,alpha=0.05)
 > summary(res_comparison_Wild_vs_KO_FULLMatrix)
-> ~~~
-> {: .language-bash}
-{: .solution}
-
-> ## Identify differentially expressed genes with FDR cutoff 0.05
-> ~~~
 > res05_comparison_Wild_vs_KO_FULLMatrix<-sum(res_comparison_Wild_vs_KO_FULLMatrix$padj<0.05,na.rm=TRUE)
 > resSig005_comparison_Wild_vs_KO_FULLMatrix<-subset(res_comparison_Wild_vs_KO_FULLMatrix, padj < 0.05)
 > dim(resSig005_comparison_Wild_vs_KO_FULLMatrix)
