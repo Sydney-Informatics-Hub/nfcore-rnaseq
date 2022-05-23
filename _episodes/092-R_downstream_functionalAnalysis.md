@@ -118,7 +118,7 @@ keypoints:
 >          showCategory = 5)
 >~~~
 ><figure>
->  <img src="{{ page.root }}/fig/cnePlot_down.png" style="margin:10px;height:400px"/>
+>  <img src="{{ page.root }}/fig/cnetDown.png" style="margin:10px;height:400px"/>
 >  <figcaption> Links genes to enriched biological concepts </figcaption>
 ></figure><br>
 > {: .language-bash}
