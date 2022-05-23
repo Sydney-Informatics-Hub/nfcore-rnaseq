@@ -60,7 +60,7 @@ keypoints:
 > ~~~
 > <figure>
 >   <img src="{{ page.root }}/fig/DotPlot_up.png" style="margin:10px;height:400px"/>
->   <figcaption> A basic RNASeq analysis workflow </figcaption>
+>   <figcaption> Visualise the enriched biological concepts (here Gene ontologies) </figcaption>
 > </figure><br>
 > {: .language-bash}
 {: .solution}
@@ -76,7 +76,7 @@ keypoints:
 > ~~~
 > <figure>
 >   <img src="{{ page.root }}/fig/cnePlot_up.png" style="margin:10px;height:400px"/>
->   <figcaption> A basic RNASeq analysis workflow </figcaption>
+>   <figcaption> Links genes to enriched biological concepts </figcaption>
 > </figure><br>
 > {: .language-bash}
 {: .solution}
@@ -102,7 +102,7 @@ keypoints:
 > ~~~
 > <figure>
 >   <img src="{{ page.root }}/fig/DotPlot_down.png" style="margin:10px;height:400px"/>
->   <figcaption> A basic RNASeq analysis workflow </figcaption>
+>   <figcaption> Visualise the enriched biological concepts (here Gene ontologies)  </figcaption>
 > </figure><br>
 > {: .language-bash}
 {: .solution}
@@ -119,7 +119,7 @@ keypoints:
 >~~~
 ><figure>
 >  <img src="{{ page.root }}/fig/cnePlot_down.png" style="margin:10px;height:400px"/>
->  <figcaption> A basic RNASeq analysis workflow </figcaption>
+>  <figcaption> Links genes to enriched biological concepts </figcaption>
 ></figure><br>
 > {: .language-bash}
 {: .solution}
