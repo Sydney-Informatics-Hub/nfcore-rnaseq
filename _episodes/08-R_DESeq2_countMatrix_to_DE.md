@@ -76,7 +76,7 @@ MD and Volcano plots for DE results
 > View(counttable)
 > ~~~
 > <figure>
->   <img src="{{ page.root }}/fig/count_matrix_subset.png" style="margin:10px;height:350px"/>
+>   <img src="{{ page.root }}/fig/count_matrix_FULL.png" style="margin:10px;height:350px"/>
 > </figure><br>
 > {: .language-bash}
 {: .solution}
