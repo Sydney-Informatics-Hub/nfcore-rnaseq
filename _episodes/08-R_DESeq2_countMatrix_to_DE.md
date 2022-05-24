@@ -64,9 +64,10 @@ MD and Volcano plots for DE results
 > {: .language-bash}
 {: .solution}
 
-
-> ## Read the count matrix 
 > ~~~
+> ## Read the count matrix 
+> - The countdata file contains information about genes (one gene per row)
+> - The first column has the gene symbol/gene ID and the remaining columns contain aligned read counts per sample
 > # The combined-count matrix was generated using 'nfcore-rnaseq'
 > counttable<-read.delim("GSE81082_count_matrix_ENSIDs_symbols_nr.txt", header=T, row.names=1)
 > View(counttable)
@@ -74,13 +75,6 @@ MD and Volcano plots for DE results
 > subsetOfColumns <- c("WT1","WT2","WT3","KO1","KO2","KO3","Symbol")
 > counttable <- counttable[subsetOfColumns]
 > View(counttable)
-> ~~~
-> <figure>
->   <img src="{{ page.root }}/fig/count_matrix_FULL.png" style="margin:10px;height:350px"/>
-> </figure><br>
-> {: .language-bash}
-{: .solution}
-
 > # Gene Symbol as identifier
 > counttable<-counttable[,c("Symbol","WT1","WT2","WT3","KO1","KO2","KO3")]
 > row.names(counttable) <- NULL
