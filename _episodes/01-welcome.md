@@ -1,12 +1,12 @@
 ---
-title: "Welcome to the nfcore-rnaseq workshop"
+title: "Welcome to Nextflow nfcore-rnaseq workshop"
 teaching: 10
 exercises: 0
 questions:
-- "Our introduction : Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
-- "Why do RNA-Seq analysis?"
+- "Who are we : Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
+- "Why RNASeq analysis?"
 - "What is Nextflow?"  
-- "How to run 'nfcore-rnaseq  pipeline' on a 'Pawsey Nimbus VM instance'"
+- "How to run 'nfcore-rnaseq'  pipeline on a 'Pawsey Nimbus VM instance'"
 - "How to perform downstream data-analysis using R/RStudio?" 
 
 
@@ -40,26 +40,47 @@ The [Pawsey Supercomputing Research Centre](https://pawsey.org.au/) is an uninco
   </figure><br>
 
 
-## RNA-Seq analysis
-- Why RNA Sequencing?
-- What is RNA-Seq analysis?
+## RNASeq analysis
+- Why sequence RNA?
+- What is RNASeq analysis?
 
-## Nextflow and nfcore
+
+## Steps involved in RNASeq analysis
+- Basic RNASeq analysis pipeline 
+- Sequencing to read-count matrix using nfcore-rnaseq pipeline - How? 
+- Read-count matrix to differential expression (DE) analysis using RStudio - How?
+
+
+## STEP 1: Sequencing to read-count matrix
+- What is a Fastq format?
 - What is nextflow?
-- What is nfcore?
+- What is nfcore-rnaseq?
 
-## nfcore-rnaseq
-- Why use nextflow workflows for RNA-Seq analysis.
-- Introduction to nfcore-rnaseq.
-- Pre-processing and generating a count-matrix for Differential Expression (DE) analysis.
+## Pawsey-Nimbus virtual machine: A platform to run nfcore-rnaseq pipeline 
+- What are the trainee VMs from Pawsey
+- How to log on to a trainee VM?
+ 
+## Run nfcore-rnaseq on 'Pawsey-Nimbus VM instance'
+- What are basic steps involved?
+- What is the input?
+- What is the output ? A read-count matrix
+- Where do we go from here? - Exporting the read-count matrix
 
-## Pawsey-Nimbus VM intance
-- What is a Pawsey-Nimbus VM?
-- How to deploy the pipeline nfcore-rnaseq on 'Pawsey-Nimbsus VM intance'.
+## STEP2: Read-count matrix to differential expression (DE) analysis
+- Why use 'R'  environment for differential expression analysis?
+- A quick introduction to R and RStudio
 
-## R and RStudio 
-- Introduction to R and RStudio.
-- Downstream (DE) analysis using RStudio on 'Pawsey-Nimbsus VM intance'.
+
+## Identifying the DE genes
+- Importing the read-count matrix in R
+- Pre-processing steps
+- Multivariate analysis (PCA plots etc)
+- Generate DE genes
+
+## Functional enrichment anaylsis
+- What is Gene ontology?
+- What is enrichment analysis?
+- What are some of the approaches to do enrichment analysis in R? 
 
 
 ___
