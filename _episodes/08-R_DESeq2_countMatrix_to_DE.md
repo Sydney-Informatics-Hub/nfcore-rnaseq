@@ -30,7 +30,7 @@ MD and Volcano plots for DE results
 
 > ## Set the current working directory
 > ~~~
-> Set the current path as the current working directory
+> ## Set the current path as the current working directory
 > current_path <- getActiveDocumentContext()$path 
 > setwd(dirname(current_path ))
 > print( getwd() )
@@ -40,6 +40,7 @@ MD and Volcano plots for DE results
 
 > ## Load the 'R' libraries
 > ~~~
+> ## Load all R packages (libraries) required for the various steps in this analysis.
 > library("DESeq2")
 > library("edgeR")
 > library("limma")
@@ -64,8 +65,9 @@ MD and Volcano plots for DE results
 > {: .language-bash}
 {: .solution}
 
-> ~~~
+
 > ## Read the count matrix 
+> ~~~
 > The countdata file contains information about genes (one gene per row)
 > The first column has the gene symbol/gene ID and the remaining columns contain aligned read counts per sample
 > # The combined-count matrix was generated using 'nfcore-rnaseq'
@@ -87,9 +89,15 @@ MD and Volcano plots for DE results
 {: .solution}
 
 
-> ## Filter to remove lowly expressed genes 
+### Filtering lowly expressed genes 
+- It is recommended to filter for lowly expressed genes.
+- The genes with very low coverage do not contribute to identification of differentially expressed genes.
+- Rather, these geens can interfer with the statistical analysis.
+
 > ~~~
-> ## Retian genes with more than 1 count-per-million in at least 4 (out of 6) samples  
+> ## Filtering by minimum count-per-million 
+> # Filter to remove lowly expressed genes 
+> # Retain those with more than 1 counts per million in at least 4 (out of 6) samples 
 > keep <-rowSums(cpm(counttable)>1) >=4
 > data <-counttable[keep, ]
 > dim(data)
