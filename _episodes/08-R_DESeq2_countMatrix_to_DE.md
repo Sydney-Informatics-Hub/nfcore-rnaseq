@@ -5,8 +5,8 @@ exercises: 10
 questions:
 - "How to import a count-matrix (output from nfcore) in R?"
 - "How to generate PCA/Scree plots for exploring multivariate data?"
-- 
-- "How to use the DESeq2 module to perform differential expression (DE) analysis"
+- "How to use the DESeq2 module to perform differential expression (DE) analysis?"
+- "How to visualise the results from DeSeq2 analysis?" 
 
 
 objectives:
@@ -74,6 +74,13 @@ MD and Volcano plots for DE results
 > subsetOfColumns <- c("WT1","WT2","WT3","KO1","KO2","KO3","Symbol")
 > counttable <- counttable[subsetOfColumns]
 > View(counttable)
+> ~~~
+> <figure>
+>   <img src="{{ page.root }}/fig/count_matrix_subset.png" style="margin:10px;height:350px"/>
+> </figure><br>
+> {: .language-bash}
+{: .solution}
+
 > # Gene Symbol as identifier
 > counttable<-counttable[,c("Symbol","WT1","WT2","WT3","KO1","KO2","KO3")]
 > row.names(counttable) <- NULL
