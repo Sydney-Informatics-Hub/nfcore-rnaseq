@@ -4,28 +4,27 @@ teaching: 10
 exercises: 0
 questions:
 - "Why do RNASeq analysis?"
-- "Why do we have so many steps when doing RNASeq analysis?"
-- "Can bioinformatics pipelines such as nextflow optimise this and use lesser steps ?
-- "How can you run the 'nfcore-rnaseq' pipeline on a virtual machine?"
+- "Why so many steps when doing RNASeq analysis?"
+- "Can we use bioinformatics pipelines tools such as nextflow for pipelining and efficiency?"
+- "How does 'nfcore-rnaseq' work?"
+- "How to run 'nfcore-rnaseq' pipeline on a virtual machine?"
 - "How to perform downstream data-analysis using R/RStudio?" 
 
-
 objectives:
-- "Understanding the main aims of this workshop"
+- "Executing nextflow pipeline 'nfcore-rnaseq' on a virtual machine (VM) instance"
 keypoints:
 - XXX
 ---
 
-## RNASeq analysis
+### RNASeq analysis
 - Why sequence RNA?
 - What is RNASeq analysis?
-
+- How and where to easily run RNASeq analysis?
 
 ### Steps involved in RNASeq analysis
 - Basic RNASeq analysis pipeline 
 - Sequencing to read-count matrix using nfcore-rnaseq pipeline - How? 
 - Read-count matrix to differential expression (DE) analysis using RStudio - How?
-
 
 ### STEP 1: Sequencing to read-count matrix
 - What is a Fastq format?
@@ -56,7 +55,6 @@ keypoints:
 - What is Gene ontology?
 - What is enrichment analysis?
 - How to perform enrichment analysis in R? 
-
 
 ___
 **Notes**   
