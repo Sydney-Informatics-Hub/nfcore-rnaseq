@@ -4,8 +4,8 @@ teaching: 10
 exercises: 0
 questions:
 - "Why do RNASeq analysis?"
-- "Why so many steps when doing RNASeq analysis?"
-- "Can we use bioinformatics pipelines tools such as nextflow for pipelining and efficiency?"
+- "Multiple steps when performing RNASeq analysis?"
+- "Using bioinformatics pipelines tools such as nextflow for pipelining and efficiency?"
 - "How does 'nfcore-rnaseq' work?"
 - "How to run 'nfcore-rnaseq' pipeline on a virtual machine?"
 - "How to perform downstream data-analysis using R/RStudio?" 
