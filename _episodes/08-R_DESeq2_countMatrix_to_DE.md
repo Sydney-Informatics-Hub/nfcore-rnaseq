@@ -66,8 +66,8 @@ MD and Volcano plots for DE results
 
 > ~~~
 > ## Read the count matrix 
-> - The countdata file contains information about genes (one gene per row)
-> - The first column has the gene symbol/gene ID and the remaining columns contain aligned read counts per sample
+> The countdata file contains information about genes (one gene per row)
+> The first column has the gene symbol/gene ID and the remaining columns contain aligned read counts per sample
 > # The combined-count matrix was generated using 'nfcore-rnaseq'
 > counttable<-read.delim("GSE81082_count_matrix_ENSIDs_symbols_nr.txt", header=T, row.names=1)
 > View(counttable)
