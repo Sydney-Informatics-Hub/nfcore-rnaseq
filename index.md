@@ -4,24 +4,28 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-**Synopsis:** Introduction to excecuting the nextflow-nfcore pipeline for RNASeq analysis on a Pawsey Nimbus VM instance
+### Synopsis
+Nextflow bioinformatics pipeline **nfcore-rnaseq** for performing **RNA-Seq analysis** - An Introduction
 
-**Target audience:**  HDRs, researchers who have, or will soon acquire, RNA-seq short read data that they need to analyse themselves. No prior experience with RNA-seq analysis is required.
+### Target audience
+- HDRs, researchers who have, or will soon acquire, RNA-seq short read data that they need to analyse themselves. 
+- No prior experience with RNA-seq analysis is required.
 
+### Pre-requisite(s)
 
-**Pre-requisite(s):** 
+**(1)** The course **[Nextflow and Supercomputing at Pawsey]()** is an introduction to nextflow pipelines and Pawsey supercomputing. 
+- The first half of this pre-requisite is an Introduction to [Nextflow](https://www.nextflow.io/) - a tool to develop scientifc workflows.
+- The second half is a overview to [Supercomputing at Pawsey](https://pawsey.org.au/supercomputing/).
+- We will do a quick overview of the above two topics today, with context to our workshop.
 
-(1) The course **[Nextflow and Supercomputing at Pawsey]({{ site.series_home }})** is an introduction to nextflow pipelines and Pawsey supercomputing. 
-
-This first part of the pre-requisite is an Introduction to [Nextflow](https://www.nextflow.io/) - a tool to develop scientifc workflows  and the second half is a overview to [Supercomputing at Pawsey](https://pawsey.org.au/supercomputing/).
-
-Although important it not essential to have attended the above course. We will be doing a quick overview of the above two topics in context to this workshop.
-
-(2) Introduction to [Unix/Linux command line](https://datacarpentry.org/shell-genomics/) and Introduction to [R/RStudio](https://datacarpentry.org/genomics-r-intro/)
-- It will be very useful for the attendee to have looked into the materials for the above two essestial elements. 
+**(2) Datacarpentry:**   Introduction to **[Unix/Linux command line](https://datacarpentry.org/shell-genomics/)** 
+- It will be very useful for the trainee to have looked into the materials for the above two essestial elements. 
 - We will try and do a quick revision of basic commands in Unix.
+
+**(3) Datacarpentry:** Introduction to **[R/RStudio](https://datacarpentry.org/genomics-r-intro/)**
+- The trainees will be introduced to basic data importing and a few other steps in R.
+- They can use the pre-written code-blocks for generating results at various steps.
 - However it is out of scope of this workshop to learn programming in R. 
-- The attendee will be introduced to basic data importing steps in R and can use the pre-written code-blocks for generating results at various steps.
 
 **Recorded Lesson:** You can watch the recorded lesson from October 24, 2022, here: [https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa](https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa)
 
