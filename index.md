@@ -4,14 +4,14 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-### Synopsis
+**Synopsis**
 An Introduction to Nextflow bioinformatics pipeline **nfcore-rnaseq** for performing **RNA-Seq analysis**
 
-### Target audience
+**Target audience**
 - HDRs, researchers who have, or will soon acquire, RNA-seq short read data that they need to analyse themselves. 
 - No prior experience with RNA-seq analysis is required.
 
-### Pre-requisite(s)
+**Pre-requisite(s)**
 
 **(1)** The course **[Nextflow and Supercomputing at Pawsey]()** is an introduction to nextflow pipelines and Pawsey supercomputing. 
 - The first half of this pre-requisite is an Introduction to [Nextflow](https://www.nextflow.io/) - a tool to develop scientifc workflows.
