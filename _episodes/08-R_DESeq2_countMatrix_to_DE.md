@@ -68,8 +68,8 @@ MD and Volcano plots for DE results
 
 > ## Read the count matrix 
 > ~~~
-> The countdata file contains information about genes (one gene per row)
-> The first column has the gene symbol/gene ID and the remaining columns contain aligned read counts per sample
+> # The countdata file contains information about genes (one gene per row)
+> # The first column has the gene symbol/gene ID and the remaining columns contain aligned read counts per sample
 > # The combined-count matrix was generated using 'nfcore-rnaseq'
 > counttable<-read.delim("GSE81082_count_matrix_ENSIDs_symbols_nr.txt", header=T, row.names=1)
 > View(counttable)
@@ -89,15 +89,14 @@ MD and Volcano plots for DE results
 {: .solution}
 
 
-### Filtering lowly expressed genes 
-- It is recommended to filter for lowly expressed genes.
-- The genes with very low coverage do not contribute to identification of differentially expressed genes.
-- Rather, these geens can interfer with the statistical analysis.
 
+
+> ## Filtering lowly expressed genes  
 > ~~~
-> ## Filtering by minimum count-per-million 
-> # Filter to remove lowly expressed genes 
-> # Retain those with more than 1 counts per million in at least 4 (out of 6) samples 
+> # The genes with very low coverage do not contribute to identification of differentially expressed genes.
+> # It is recommended to filter the lowly expressed genes.
+> # Rather, these geens can interfer with the statistical analysis.
+> # So only retain the genes with more than 1 counts per million e.g. in least 4 (out of 6) samples 
 > keep <-rowSums(cpm(counttable)>1) >=4
 > data <-counttable[keep, ]
 > dim(data)
@@ -107,8 +106,8 @@ MD and Volcano plots for DE results
 {: .solution}
 
 ## Differential expression analysis using DESeq2.
-> ~~~
 > ## Make a design matrix
+> ~~~
 > meta <- data.frame(row.names=colnames(counttable),condition=c("Wild","Wild","Wild","KO","KO","KO"))
 > meta$condition ~ relevel(meta$condition, ref="Wild")
 > condition ~ relevel(factor(meta$condition), ref="Wild")
@@ -151,10 +150,11 @@ MD and Volcano plots for DE results
 {: .solution}
 
 > ## Generate a list of DE genes
-> ~~~
 > # Compare Wild-type (WT) to Knockouts (KO)
+> ~~~
 > subsetOfColumns <- c("WT1","WT2","WT3","KO1","KO2","KO3")
 > counttable_comparison_Wild_vs_KO_FULLMatrix <- counttable[subsetOfColumns]
+> ~~~
 > View(counttable_comparison_Wild_vs_KO_FULLMatrix)
 > {: .language-bash}
 {: .solution}
