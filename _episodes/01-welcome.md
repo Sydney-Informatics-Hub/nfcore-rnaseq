@@ -6,9 +6,10 @@ questions:
 - "Who are we : Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
 
 objectives:
-- "Executing nextflow pipeline 'nfcore-rnaseq' on a virtual machine (VM) instance"
+- "Introduction to the main players behind this workshop"
+
 keypoints:
-- XXX
+- ???
 ---
 
 ### Australian BioCommons
@@ -34,13 +35,6 @@ The [Pawsey Supercomputing Research Centre](https://pawsey.org.au/) is an uninco
   <img src="{{ page.root }}/fig/Pawsey_supercomputing_center.png" style="margin:10px;height:300px"/>
   </figure><br>
 
-
-___
-**Notes**   
-<sup id="f1">1[↩](#a1)</sup> Here is a list of ['nfcore pipelines'](https://nf-co.re/pipelines/).
-
-___
-<br>
 
 
 
