@@ -20,12 +20,11 @@ An Introduction to Nextflow bioinformatics pipeline **nfcore-rnaseq** for perfor
 
 **(2) Datacarpentry:**   Introduction to **[Unix/Linux command line](https://datacarpentry.org/shell-genomics/)** 
 - It will be very useful for the trainee to have looked into the materials for the above two essestial elements. 
-- We will try and do a quick revision of basic commands in Unix.
+- We will do a quick revision of basic commands in Unix.
 
 **(3) Datacarpentry:** Introduction to **[R/RStudio](https://datacarpentry.org/genomics-r-intro/)**
 - The trainees will be introduced to basic data importing and a few other steps in R.
 - They can use the pre-written code-blocks for generating results at various steps.
-- However it is out of scope of this workshop to learn programming in R. 
 
 **Recorded Lesson:** You can watch the recorded lesson from October 24, 2022, here: [https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa](https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa)
 
