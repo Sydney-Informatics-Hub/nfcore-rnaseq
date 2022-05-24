@@ -5,7 +5,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 ---
 
 ### Synopsis
-Nextflow bioinformatics pipeline **nfcore-rnaseq** for performing **RNA-Seq analysis** - An Introduction
+An Introduction to Nextflow bioinformatics pipeline **nfcore-rnaseq** for performing **RNA-Seq analysis**
 
 ### Target audience
 - HDRs, researchers who have, or will soon acquire, RNA-seq short read data that they need to analyse themselves. 
