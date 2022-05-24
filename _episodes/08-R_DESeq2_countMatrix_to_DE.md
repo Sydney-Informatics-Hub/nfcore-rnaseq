@@ -117,22 +117,12 @@ MD and Volcano plots for DE results
 > {: .language-bash}
 {: .solution}
 
-### Principal Component Analysis (PCA)
-- Principal component analysis (PCA) is one among the many techniques adopted for exploring multivariate data like transcriptomes.
-- PCA is an unsupervised analysis where we don’t need to specify the groups and it determines the greatest sources of variation in the data. 
-- A principal components analysis is an example of an unsupervised analysis, where we don’t need to specify the groups. 
-- Ideally we expect that the greatest sources of variation in the data are the treatments/groups we are interested in. 
-- It is also a useful tool for quality control and checking for outliers. 
-
-> ## Transform data for PCA 
-> ~~~
-> vsd <- vst(dds, blind=FALSE)
-> z<-plotPCA(vsd, intgroup=c("condition"))
-> z+ geom_text(aes_string(x = "PC1", y = "PC2", label = "name"),color = "black",size = 4)
-> # Writing normalised counts
-> normalised_counts<-counts(dds,normalized=TRUE)
-> write.table(normalised_counts, "normalised_counts_DeSeq2.tab", sep="\t", col.names=NA, quote=F)
-> ~~~
+> ## Principal Component Analysis (PCA)
+> Principal component analysis (PCA) is one among the many techniques adopted for exploring multivariate data like transcriptomes.
+> PCA is an unsupervised analysis where we don’t need to specify the groups and it determines the greatest sources of variation in the data. 
+> A principal components analysis is an example of an unsupervised analysis, where we don’t need to specify the groups. 
+> Ideally we expect that the greatest sources of variation in the data are the treatments/groups we are interested in. 
+> It is also a useful tool for quality control and checking for outliers. 
 > <figure>
 >   <img src="{{ page.root }}/fig/PCA.png" style="margin:10px;height:350px"/>
 > </figure><br>
