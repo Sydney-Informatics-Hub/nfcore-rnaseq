@@ -14,17 +14,12 @@ An Introduction to Nextflow bioinformatics pipeline **nfcore-rnaseq** for perfor
 **Pre-requisite(s)**
 
 **(1)** The course **[Nextflow and Supercomputing at Pawsey]()** is an introduction to nextflow pipelines and Pawsey supercomputing. 
-- The first half of this pre-requisite is an Introduction to [Nextflow](https://www.nextflow.io/) - a tool to develop scientifc workflows.
-- The second half is a overview to [Supercomputing at Pawsey](https://pawsey.org.au/supercomputing/).
-- We will do a quick overview of the above two topics today, with context to our workshop.
+- The first half is an introduction to [Nextflow](https://www.nextflow.io/) - a tool to develop scientifc workflows.
+- The second half is an overview to [Supercomputing at Pawsey](https://pawsey.org.au/supercomputing/). Here we discuss the various computing resources available to a researcher at the Pawsey supercomputing center, one of whch is the Nimbus traiing VM instance (used in this workshop)
 
-**(2) Datacarpentry:**   Introduction to **[Unix/Linux command line](https://datacarpentry.org/shell-genomics/)** 
-- It will be very useful for the trainee to have looked into the materials for the above two essestial elements. 
-- We will do a quick revision of basic commands in Unix.
+(2) Introduction to **[Unix/Linux command line](https://datacarpentry.org/shell-genomics/)** 
 
-**(3) Datacarpentry:** Introduction to **[R/RStudio](https://datacarpentry.org/genomics-r-intro/)**
-- The trainees will be introduced to basic data importing and a few other steps in R.
-- They can use the pre-written code-blocks for generating results at various steps.
+(3) Introduction to **[R/RStudio](https://datacarpentry.org/genomics-r-intro/)**
 
 **Recorded Lesson:** You can watch the recorded lesson from October 24, 2022, here: [https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa](https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa)
 
