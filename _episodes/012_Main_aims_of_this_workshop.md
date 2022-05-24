@@ -4,9 +4,9 @@ teaching: 10
 exercises: 0
 questions:
 - "Why do RNASeq analysis?"
-- "How does a basic RNASeq pipeline look?"
-- "Can we combine the multiple steps into a pipeline?"  
-- "How does 'nfcore-rnaseq'  pipeline on a 'Pawsey Nimbus VM instance'"
+- "Why do we have so many steps when doing RNASeq analysis?"
+- "Can bioinformatics pipelines such as nextflow optimise this and use lesser steps ?
+- "How can you run the 'nfcore-rnaseq' pipeline on a virtual machine?"
 - "How to perform downstream data-analysis using R/RStudio?" 
 
 
