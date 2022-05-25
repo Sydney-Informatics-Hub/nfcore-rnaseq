@@ -1,9 +1,9 @@
 ---
-title: "What is RNA?"
+title: "Why sequence RNA?"
 teaching: 10
 exercises: 0
 questions:
-- "Why sequence RNA?"
+- "What is RNA and why sequence it?"
 
 objectives:
 - "Understand what is RNA"
