@@ -71,14 +71,15 @@ This episode gives an overview of  **RNA-Seq** analysis .
 
 <figure>
 <img src="{{ page.root }}/fig/rnaseq_workflow.png" style="margin:10px;height:350px"/>
-  <figcaption> Workflow : RNASeq analysis </figcaption>
+  <figcaption> Workflow : RNA-Seq analysis </figcaption>
 </figure><br> 
 
 - Multiple steps are involved in the analysis of RNA-Seq data. 
-- The first step is sequencing reads (Output format - [FASTQ](https://www.drive5.com/usearch/manual7/fastq_files.html) files). 
-- Pre-processing for quality control (QC).
-- Aligning reads to a reference genome. 
-- The number of reads mapped to each gene can then be counted. This results in a table of counts, which is what we perform statistical analyses on to determine differentially expressed genes and pathways.
+- The first step is sequencing the reads (format - [FASTQ](https://www.drive5.com/usearch/manual7/fastq_files.html)). We will discuss the FASTQ format in the next chapter. 
+- Next step involves pre-processing for quality control (QC). A range of different tools can be used for performing an array of important function related tp data pre-processing for quality assessment etc.
+- Next the good quality reads are aligning to a reference genome. 
+- The number of reads mapped to each gene are then counted. This results in a table of counts, which is what we use to perform statistical analyses to determine differentially expressed genes and functionally important pathways.
+- Each tool in the RNA-Seq pipeline is developed independantly and needs to be excecuted separately. 
 
 
 
