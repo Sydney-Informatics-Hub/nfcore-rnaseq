@@ -3,10 +3,10 @@ title: "Welcome to Nextflow nfcore-rnaseq workshop"
 teaching: 10
 exercises: 0
 questions:
-- "Who are we : Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
+- "Who are we? Australian BioCommons, Sydney Informatics Hub, Pawsey Supercomputing Center"
 
 objectives:
-- "Introduction to the main players behind this workshop"
+- "Introduction to the main players"
 
 keypoints:
 - ???
