@@ -3,7 +3,7 @@ title: "What is RNA?"
 teaching: 10
 exercises: 0
 questions:
-- "What is RNA?"
+- "Why sequence RNA?"
 
 objectives:
 - "Understand what is RNA"
