@@ -26,7 +26,7 @@ keypoints:
 - Sequencing to read-count matrix using nfcore-rnaseq pipeline - How? 
 - Read-count matrix to differential expression (DE) analysis using RStudio - How?
 
-### STEP 1: Sequencing to read-count matrix
+### (1): Sequencing to read-count matrix
 - What is a Fastq format?
 - What is nextflow?
 - What is nfcore-rnaseq?
@@ -41,7 +41,7 @@ keypoints:
 - What is the output ? A read-count matrix
 - Where do we go from here? - Exporting the read-count matrix
 
-### STEP2: Read-count matrix to differential expression (DE) analysis
+### (2): Read-count matrix to differential expression (DE) analysis
 - Why use 'R'  environment for differential expression analysis?
 - A quick introduction to R and RStudio
 
