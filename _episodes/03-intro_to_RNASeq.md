@@ -4,7 +4,9 @@ teaching: 10
 exercises: 0
 questions:
 - "What is RNA-Seq?"
-- "RNA-Seq : Sample preparation, RNA library construction, and sequencing? "
+- "RNA-Seq : Sample preparation"
+- "RNA-Seq : Experimental Design"
+- "RNA-Seq : RNA library construction"
 - "RNA-Seq analysis : Basic workflow"
 objectives:
 - "Learn how to perform RNASeq analysis"
@@ -22,7 +24,7 @@ This episode gives an overview of  **RNA-Seq** analysis .
 - As sequencing costs have decreased, using RNA-Seq to simultaneously measure the expression of tens of thousands of genes for multiple samples has never been easier.
 
 
-### RNA-sample to sequencer ... 
+### RNA-sample to sequencer  
 
 <figure>
   <img src="{{ page.root }}/fig/sample_to_sequencer.png" style="margin:10px;height:300px"/>
