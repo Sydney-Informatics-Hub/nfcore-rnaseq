@@ -41,14 +41,9 @@ This episode gives an overview of  **RNA-Seq** analysis .
 - **Replicates**   : Technical vs Biological.
 - **Data amount/type** : Read length, single vs paired end, 
                          stranded vs unstranded, desired depth of coverage.
-<figure>
-  <img src="{{ page.root }}/fig/Design.png" style="margin:10px;height:350px"/>
-  <figcaption> RNA-Seq analysis workflow </figcaption>
-</figure><br>
 
 
-
-### How does RNA sequencing work?
+### NGS library construction?
   <figure>
 <img src="{{ page.root }}/fig/chemistry.png" style="margin:10px;height:350px"/>
   <figcaption> RNA/DNA library construction </figcaption>
