@@ -1,11 +1,11 @@
 ---
-title: "What are the main aims of this workshop?"
+title: "Main aims of this workshop?"
 teaching: 10
 exercises: 0
 questions:
 - "Why sequence RNA?"
-- "How to do RNASeq analysis?"
-- "Can tools such as Nextflow be used to efficient pipelining of RNASeq analysis ?"
+- "How to do RNA-Seq analysis?"
+- "Nextflow-workflows as efficient pipelining tools for Bioinformatics tasks?"
 - "How does 'nfcore-rnaseq' work?"
 - "How to run 'nfcore-rnaseq' pipeline on a virtual machine?"
 - "How to use R/RStudio for downstream data processing and visualisation?" 
