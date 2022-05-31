@@ -1,0 +1,12 @@
+---
+title: "RNA-Seq analysis: Convert sequencing data to gene counts"
+teaching: 10
+exercises: 0
+questions:
+- "How to convert sequencing data to gene counts?"
+
+objectives:
+- "Two independant steps in RNA-Seq analysis workflow"
+keypoints:
+- XXX
+---
