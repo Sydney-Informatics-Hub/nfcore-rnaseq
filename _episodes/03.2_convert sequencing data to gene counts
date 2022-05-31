@@ -1,4 +1,4 @@
-e---
+---
 title: "RNA-Seq analysis: Convert sequencing data to gene counts"
 teaching: 10
 exercises: 0
@@ -12,3 +12,6 @@ objectives:
 keypoints:
 - XXX
 ---
+
+---
+This episode introduces the user to Step1 in RNA-Seq analysis using nfcore-rnaseq
