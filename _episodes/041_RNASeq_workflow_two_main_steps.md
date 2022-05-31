@@ -1,5 +1,5 @@
 ---
-title: "The study"
+title: "RNA-Seq analysis: Two main steps"
 teaching: 10
 exercises: 0
 questions:
