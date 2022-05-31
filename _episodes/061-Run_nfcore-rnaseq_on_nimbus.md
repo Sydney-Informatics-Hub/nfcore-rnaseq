@@ -3,9 +3,10 @@ title: "Run nfcore-rnaseq on a Nimbus instance"
 teaching: 10
 exercises: 0
 questions:
-- "Create/use a design samplesheet"
-- "How to start a basic nfcore-rnaseq run!"
-- "Usage options"
+- "Step 1: Convert the read-sequencing data into gene counts using nfcore-rnaseq pipeline"
+- "Why use nfcore-rnaseq?"
+- "Where to run nfcore-rnaseq pipeline?"
+- "What are the commands to run nfcore-rnaseq?"
 
 objectives:
 - "Understanding how to run the nfcore-rnaseq on Nimbus"
@@ -13,13 +14,7 @@ objectives:
 keypoints:
 
 ---
-This episode introduces the user to the basic excecution steps of the nfcore-rnaseq pipeline on the Nimbus instance
-
-### RNA-Seq workflow using nextflow and R
-<figure>
-  <img src="{{ page.root }}/fig/original_pipe_to_nextflowing.png" style="margin:10px;height:450px"/>
-  <figcaption> RNA-Seq analysis workflow </figcaption>
-</figure><br>
+This episode introduces the user to Step 1 in RNA-Seq analysis - Convert the read-sequencing data into gene counts using nfcore-rnaseq pipeline
 
 ### nfcore-rnaseq 
 - Turn many steps into just a few.
