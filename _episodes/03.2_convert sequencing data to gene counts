@@ -1,12 +1,14 @@
----
+e---
 title: "RNA-Seq analysis: Convert sequencing data to gene counts"
 teaching: 10
 exercises: 0
 questions:
 - "How to convert sequencing data to gene counts?"
+- "Does a pipelining approach such as nextflow help in optimising the workflow?"
 
 objectives:
-- "Two independant steps in RNA-Seq analysis workflow"
+- "What are the steps involved when converting sequencing reads to gene counts"
+
 keypoints:
 - XXX
 ---
