@@ -24,9 +24,9 @@ keypoints:
 - Today we will work with the dataset generated for a knockout mouse model to study Williams-Beuren Syndrome (WBS) obtained from a study published in 2016 by <I>Corley et al</I>. 
 - Williams-Beuren Syndrome (WBS) is a rare disease found in people.
 - It is a genetic disorder associated with multisystemic abnormalities such as: 
-* Facial dysmorphology
-* Intellectual disability
-* Cardiovascular abnormalities
+   * Facial dysmorphology
+   * Intellectual disability
+   * Cardiovascular abnormalities
 - WBS is caused by a hemizygous microdeletion involving up to 28 genes in chromosome 7q11.23. 
 - Two evolutionary-related transcription factors, GTF2I and GTF2IRD1, a transcription factor gene are implicated as prime candidates for the cause of the facial dysmorphology.
 
