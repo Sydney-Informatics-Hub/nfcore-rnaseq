@@ -18,7 +18,7 @@ keypoints:
 
 ### The study
 <figure>
-  <img src="{{ page.root }}/fig/the_study.png" style="margin:10px;height:150px"/>
+  <img src="{{ page.root }}/fig/the_study.png" style="margin:10px;height:200px"/>
   </figure><br>
 
 - Today we will work with the dataset generated for a knockout mouse model to study Williams-Beuren Syndrome (WBS) obtained from a study published in 2016 by <I>Corley et al</I>. 
