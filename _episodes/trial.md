@@ -1,0 +1,355 @@
+    # Analyzing RNA-seq data with DESeq2
+    # http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
+
+    # RNA-seq workflow: gene-level exploratory analysis and differential expression
+    # https://bioconductor.org/help/course-materials/2017/CSAMA/labs/2-tuesday/lab-03-rnaseq/rnaseqGene_CSAMA2017.html
+
+
+    # This is a good tutorial fro certain pre-processing and understanding! (Used by Tracy)
+    # https://compbiocore.github.io/deseq-workshop-1/assets/deseq_workshop_1.html
+
+### Load the R-libraries
+
+    library("DESeq2")
+
+    ## Loading required package: S4Vectors
+
+    ## Loading required package: stats4
+
+    ## Loading required package: BiocGenerics
+
+    ## Loading required package: parallel
+
+    ## 
+    ## Attaching package: 'BiocGenerics'
+
+    ## The following objects are masked from 'package:parallel':
+    ## 
+    ##     clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    ##     clusterExport, clusterMap, parApply, parCapply, parLapply,
+    ##     parLapplyLB, parRapply, parSapply, parSapplyLB
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     IQR, mad, sd, var, xtabs
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    ##     dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    ##     grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    ##     order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    ##     rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    ##     union, unique, unsplit, which.max, which.min
+
+    ## 
+    ## Attaching package: 'S4Vectors'
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     expand.grid, I, unname
+
+    ## Loading required package: IRanges
+
+    ## Loading required package: GenomicRanges
+
+    ## Loading required package: GenomeInfoDb
+
+    ## Loading required package: SummarizedExperiment
+
+    ## Loading required package: MatrixGenerics
+
+    ## Loading required package: matrixStats
+
+    ## Warning: package 'matrixStats' was built under R version 4.1.2
+
+    ## 
+    ## Attaching package: 'MatrixGenerics'
+
+    ## The following objects are masked from 'package:matrixStats':
+    ## 
+    ##     colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    ##     colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    ##     colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    ##     colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    ##     colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    ##     colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    ##     colWeightedMeans, colWeightedMedians, colWeightedSds,
+    ##     colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    ##     rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    ##     rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    ##     rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    ##     rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    ##     rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    ##     rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    ##     rowWeightedSds, rowWeightedVars
+
+    ## Loading required package: Biobase
+
+    ## Welcome to Bioconductor
+    ## 
+    ##     Vignettes contain introductory material; view with
+    ##     'browseVignettes()'. To cite Bioconductor, see
+    ##     'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+    ## 
+    ## Attaching package: 'Biobase'
+
+    ## The following object is masked from 'package:MatrixGenerics':
+    ## 
+    ##     rowMedians
+
+    ## The following objects are masked from 'package:matrixStats':
+    ## 
+    ##     anyMissing, rowMedians
+
+    library("edgeR")
+
+    ## Loading required package: limma
+
+    ## 
+    ## Attaching package: 'limma'
+
+    ## The following object is masked from 'package:DESeq2':
+    ## 
+    ##     plotMA
+
+    ## The following object is masked from 'package:BiocGenerics':
+    ## 
+    ##     plotMA
+
+    library("limma")
+
+    library("RColorBrewer")
+    library("gplots")
+
+    ## Warning: package 'gplots' was built under R version 4.1.2
+
+    ## 
+    ## Attaching package: 'gplots'
+
+    ## The following object is masked from 'package:IRanges':
+    ## 
+    ##     space
+
+    ## The following object is masked from 'package:S4Vectors':
+    ## 
+    ##     space
+
+    ## The following object is masked from 'package:stats':
+    ## 
+    ##     lowess
+
+    library("ggplot2")
+
+    ## Warning: package 'ggplot2' was built under R version 4.1.2
+
+    library("EnhancedVolcano")
+
+    ## Loading required package: ggrepel
+
+    ## Registered S3 methods overwritten by 'ggalt':
+    ##   method                  from   
+    ##   grid.draw.absoluteGrob  ggplot2
+    ##   grobHeight.absoluteGrob ggplot2
+    ##   grobWidth.absoluteGrob  ggplot2
+    ##   grobX.absoluteGrob      ggplot2
+    ##   grobY.absoluteGrob      ggplot2
+
+    library("factoextra")
+
+    ## Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa
+
+    library("devtools")
+
+    ## Loading required package: usethis
+
+    ## Warning: package 'usethis' was built under R version 4.1.2
+
+    library("rstudioapi")
+
+    library("dplyr")
+
+    ## Warning: package 'dplyr' was built under R version 4.1.2
+
+    ## 
+    ## Attaching package: 'dplyr'
+
+    ## The following object is masked from 'package:Biobase':
+    ## 
+    ##     combine
+
+    ## The following object is masked from 'package:matrixStats':
+    ## 
+    ##     count
+
+    ## The following objects are masked from 'package:GenomicRanges':
+    ## 
+    ##     intersect, setdiff, union
+
+    ## The following object is masked from 'package:GenomeInfoDb':
+    ## 
+    ##     intersect
+
+    ## The following objects are masked from 'package:IRanges':
+    ## 
+    ##     collapse, desc, intersect, setdiff, slice, union
+
+    ## The following objects are masked from 'package:S4Vectors':
+    ## 
+    ##     first, intersect, rename, setdiff, setequal, union
+
+    ## The following objects are masked from 'package:BiocGenerics':
+    ## 
+    ##     combine, intersect, setdiff, union
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
+
+    library("tibble")
+
+    ## Warning: package 'tibble' was built under R version 4.1.2
+
+    library("tidyverse")
+
+    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+
+    ## ✔ tidyr   1.2.0     ✔ stringr 1.4.0
+    ## ✔ readr   2.1.2     ✔ forcats 0.5.1
+    ## ✔ purrr   0.3.4
+
+    ## Warning: package 'tidyr' was built under R version 4.1.2
+
+    ## Warning: package 'readr' was built under R version 4.1.2
+
+    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ✖ dplyr::collapse()   masks IRanges::collapse()
+    ## ✖ dplyr::combine()    masks Biobase::combine(), BiocGenerics::combine()
+    ## ✖ dplyr::count()      masks matrixStats::count()
+    ## ✖ dplyr::desc()       masks IRanges::desc()
+    ## ✖ tidyr::expand()     masks S4Vectors::expand()
+    ## ✖ dplyr::filter()     masks stats::filter()
+    ## ✖ dplyr::first()      masks S4Vectors::first()
+    ## ✖ dplyr::lag()        masks stats::lag()
+    ## ✖ ggplot2::Position() masks BiocGenerics::Position(), base::Position()
+    ## ✖ purrr::reduce()     masks GenomicRanges::reduce(), IRanges::reduce()
+    ## ✖ dplyr::rename()     masks S4Vectors::rename()
+    ## ✖ dplyr::slice()      masks IRanges::slice()
+
+    # Bioinformatics databases/formatting etc
+    library("biomaRt")
+    library("annotables")
+    library("org.Mm.eg.db")
+
+    ## Loading required package: AnnotationDbi
+
+    ## 
+    ## Attaching package: 'AnnotationDbi'
+
+    ## The following object is masked from 'package:dplyr':
+    ## 
+    ##     select
+
+    ## 
+
+    library("biobroom")
+
+    ## Loading required package: broom
+
+    ## Warning: package 'broom' was built under R version 4.1.2
+
+    ## Registered S3 methods overwritten by 'biobroom':
+    ##   method      from 
+    ##   glance.list broom
+    ##   tidy.list   broom
+
+    # Functional analysis
+    library("clusterProfiler")
+
+    ## 
+
+    ## Registered S3 method overwritten by 'ggtree':
+    ##   method      from 
+    ##   identify.gg ggfun
+
+    ## clusterProfiler v4.0.5  For help: https://yulab-smu.top/biomedical-knowledge-mining-book/
+    ## 
+    ## If you use clusterProfiler in published research, please cite:
+    ## T Wu, E Hu, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan, X Fu, S Liu, X Bo, and G Yu. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. The Innovation. 2021, 2(3):100141. doi: 10.1016/j.xinn.2021.100141
+
+    ## 
+    ## Attaching package: 'clusterProfiler'
+
+    ## The following object is masked from 'package:AnnotationDbi':
+    ## 
+    ##     select
+
+    ## The following object is masked from 'package:biomaRt':
+    ## 
+    ##     select
+
+    ## The following object is masked from 'package:purrr':
+    ## 
+    ##     simplify
+
+    ## The following object is masked from 'package:IRanges':
+    ## 
+    ##     slice
+
+    ## The following object is masked from 'package:S4Vectors':
+    ## 
+    ##     rename
+
+    ## The following object is masked from 'package:stats':
+    ## 
+    ##     filter
+
+    #library("pathfindR")
+
+    #Not provided to Audrey
+    library("RColorBrewer")
+    library("pheatmap")
+
+### Set the current path as the current working directory——
+
+    current_path <- getActiveDocumentContext()$path 
+    setwd(dirname(current_path ))
+    print( getwd() )
+
+    ## [1] "/Users/deshpandes/Documents/Nandan/work/USyd_oneDrive/OneDrive - The University of Sydney (Staff)/Documents/Nandan/USyd/USyd/BioCommons/PRESENTATIONS_WORKSHOPS/BioCommons_nfcoreRNASeq_workshop/RnaSqGalaxy_old_workshop/RNASeq_on_Galaxy/nextflow_on_nimbus/workshop_2022/run_rnaseq_test_170622"
+
+-   Importing the Gene-count matrix (Generated by nfcore-rnaseq)
+-   As input, the DESeq2 package expects count data as obtained, e.g.,
+    from RNA-seq or another high-throughput sequencing experiment, in
+    the form of a matrix of integer values.
+-   The value in the i-th row and the j-th column of the matrix tells
+    how many reads can be assigned to gene i in sample j.
+-   The values in the matrix should be un-normalized counts or estimated
+    counts of sequencing reads (for single-end RNA-seq) or fragments
+    (for paired-end RNA-seq).
+-   The DESeq2 model internally corrects for library size, so
+    transformed or normalized values such as counts scaled by library
+    size should not be used as input.
+
+### Read Input data (Gene-count matrix generated by nfcore-rnaseq) —-
+
+    counttable_original<-read.delim("GSE81082_count_matrix_ENSIDs_symbols_nr.txt", header=T, row.names=1) 
+
+    # View the count matrix
+    View(counttable_original)
+
+    # Gene symbol as the identifier (when compared to ENSG ID)
+    counttable<-counttable_original[,c("Symbol","WT1","WT2","WT3","KO1","KO2","KO3")]
+    row.names(counttable) <- NULL
+    # Convert Column  'GeneSymbol' to rowname)
+    rownames(counttable) <- counttable$Symbol
+    counttable<-counttable[,c("WT1","WT2","WT3","KO1","KO2","KO3")]
+    #View(counttable)
+
+
+    # There is that question of redundancy? Many genes same ENSG?- To be thought about and addressed
