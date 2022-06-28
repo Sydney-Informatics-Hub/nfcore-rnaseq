@@ -19,9 +19,9 @@ keypoints:
 #### The study
 - Today we will work with the dataset generated for a knockout mouse model to study Williams-Beuren Syndrome (WBS) obtained from a study published in 2016 by <I>Corley et al</I>. 
 
-  <figure>
+  <p align="center">
   <img src="{{ page.root }}/fig/the_study.png" style="margin:10px;height:200px"/>
-  </figure><br>
+  </p>
 
 - Williams-Beuren Syndrome (WBS) is a rare disease found in people.
 - WBS is a genetic disorder associated with multisystemic abnormalities such as: 
@@ -34,10 +34,10 @@ keypoints:
 #### The experimental design
 [Corley et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27295951/) created a Gtf2ird1 knockout mouse model of this disease with an aim to improve the understanding of the WBS disease.
 
-<figure>
+<p align="center">
   <img src="{{ page.root }}/fig/experimental_design.png" style="margin:10px;height:150px"/>
-</figure><br>
- 
+</p>
+
 - The experimental design consists of a 3 X 3 design.
    - Wildtype healthy mice (WT) : 3 replicates
    - Knock out (KO) mice in which the Gtf2ird1 gene was knocked out : 3 replicates
