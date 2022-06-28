@@ -6,7 +6,7 @@ questions:
 - "Who are we?"
 
 objectives:
-- "Introduction to Australian BioCommons, Sydney Informatics Hub and Pawsey Supercomputing center"
+- "Introduction to Australian BioCommons, Sydney Informatics Hub and Pawsey Supercomputing Center"
 
 keypoints:
 - Australian BioCommons ...
