@@ -4,7 +4,7 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-### An introduction to RNA-seq analysis using the Nextflow bioinformatics pipeline nfcore-rnaseq
+**An introduction to RNA-seq analysis using the Nextflow bioinformatics pipeline nfcore-rnaseq**
 
 **About this workshop**
 - ```RNA-seq``` is a popular method for simultaneously measuring and comparing the expression of tens of thousands of genes in multiple samples.
