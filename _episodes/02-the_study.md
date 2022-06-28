@@ -17,11 +17,12 @@ keypoints:
 
 
 #### The study
-<figure>
+- Today we will work with the dataset generated for a knockout mouse model to study Williams-Beuren Syndrome (WBS) obtained from a study published in 2016 by <I>Corley et al</I>. 
+
+  <figure>
   <img src="{{ page.root }}/fig/the_study.png" style="margin:10px;height:200px"/>
   </figure><br>
 
-- Today we will work with the dataset generated for a knockout mouse model to study Williams-Beuren Syndrome (WBS) obtained from a study published in 2016 by <I>Corley et al</I>. 
 - Williams-Beuren Syndrome (WBS) is a rare disease found in people.
 - WBS is a genetic disorder associated with multisystemic abnormalities such as: 
    - Facial dysmorphology
@@ -31,17 +32,17 @@ keypoints:
 - Two evolutionary-related transcription factors, GTF2I and GTF2IRD1, a transcription factor gene are implicated as prime candidates for the cause of the facial dysmorphology.
 
 #### The experimental design
-With an aim to improve the understanding of the WBS disease, [Corley et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27295951/) created a Gtf2ird1 knockout mouse model of this disease.
+[Corley et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27295951/) created a Gtf2ird1 knockout mouse model of this disease with an aim to improve the understanding of the WBS disease.
 
 <figure>
   <img src="{{ page.root }}/fig/experimental_design.png" style="margin:10px;height:150px"/>
- </figure><br>
+</figure><br>
  
-- The experimental design consisted of 
-   - Wildtype healthy mice (WT) - 3.
-   - Knock out (KO) mice in which the Gtf2ird1 gene was knocked out - 3.
+- The experimental design consists of a 3 X 3 design.
+   - Wildtype healthy mice (WT) : 3 replicates
+   - Knock out (KO) mice in which the Gtf2ird1 gene was knocked out : 3 replicates
  
-#### The biological questions
+#### The biological question
 - Which genes are upregulated or downregulated between the two treatment groups (WT and knockout mice)?
 - Do the regulated genes relate to the disease phenotype?
  
@@ -52,15 +53,16 @@ With an aim to improve the understanding of the WBS disease, [Corley et al. 2016
 - The full dataset will be used to repeat the the analysis to identify functional enrichments from the differentially expressed (DE) genes.
 
 #### Analysis 
-<br>**Part-1: Demonstrate the use of nfcore-rnaseq pipeline** 
-- This involves converting the sequencing data to count matrix. 
-- The available virtual machine instances to be used for this purpose are of a fixed size (16 CPU and 64GB RAM).
-- So, the data used in part 1 of today's workshop is a small sub-set of the full data.
-- The sequence data has been reduced (subsetted) and it represents a very specific region of ** chromsome 18 ** of the mouse genome.
-- We will use this subsetted files for a quick processing to generate a count-matrix (approx. 15 min processing time).
+**Part-I:**  RNA-Seq reads to counts
+- Here we will ask the following questions:
+   - How to convert RNA-seq reads into counts?
+   - How to perform quality control (QC) of RNA-seq reads?
+   - How to do this analysis efficiently using a nextflow pipeline?
+
+**Part-II:** RNA-seq counts to genes  
+- In part II we ask the following questions:
+      - What are the differentially expressed genes across the wild type and KO mice?
+      - How to analyze RNA count data using the R-library DeSeq2?
+      - How to identify functionally enriched gene groups from the list of differentially expressed genes?
 
 
-<br>**Part-2: Demonstrate the use of RStudio for downstream analysis**
-- A pre-processed count matrix which represents the complete dataset was downloaded from the [original paper](https://pubmed.ncbi.nlm.nih.gov/27295951/).
-- This matrix will be used for downstream functional enrichment analysis using RStudio IDE.
-  
