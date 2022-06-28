@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the workshop"
+title: "Welcome!"
 teaching: 10
 exercises: 0
 questions:
