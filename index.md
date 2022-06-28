@@ -4,14 +4,14 @@ root: .  # Is the only page that don't follow the partner /:path/index.html
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-**An introduction to RNA-seq analysis using the Nextflow bioinformatics pipeline nfcore-rnaseq and R/RStudio**
+### An introduction to RNA-seq analysis using the Nextflow bioinformatics pipeline nfcore-rnaseq and R/RStudio**
 
 **About this workshop**
 - ```RNA-seq``` is a popular method for simultaneously measuring and comparing the expression of tens of thousands of genes in multiple samples.
 - ```Nextflow``` is a workflow management tool which assists in pipelining the multiple steps and also enables scalability and reproducibility of these workflows across different compute infrastructures.
 - This workshop provides a hands-on introduction to RNA-seq analysis from reads to counts to differential expression to functional enrichments.
 - The workshop makes use of nfcore-rnaseq, a nextflow pipeline that allows the researchers to use computational data analysis tools and workflows without the need for programming experience.
-- The nfcore-rnaseq pipeline will be run on a ```Training Virtual Machine (VM) instance provided by Pawsey supercomputing center```.
+- The nfcore-rnaseq pipeline will be run on a ```Training Virtual Machine (VM) instance``` provided by Pawsey supercomputing center.
 - The workshop also introduces the attendies to the use of ```R environment using RStudio``` for basic downstream analysis of RNA-seq data.
 
 **Target audience**<br>
