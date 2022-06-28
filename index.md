@@ -25,7 +25,6 @@ HDRs, researchers who have or will soon acquire RNA-seq short-read data which th
 
 (3) Introduction to **[R/RStudio](https://datacarpentry.org/genomics-r-intro/)**
 
-**Recorded Lesson:** You can watch the recorded lesson from October 24, 2022, here: [https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa](https://cloudstor.aarnet.edu.au/plus/s/gcmKLMZ1bsIMwAa)
 
 > **OWN LAPTOP REQUIRED**.
 {: .prereq}
