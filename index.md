@@ -13,20 +13,21 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 - The workshop makes use of nfcore-rnaseq, a nextflow pipeline that allows the researchers to use computational data analysis tools and workflows without the need for programming experience.
 - The workshop also introduces the attendies to the use of R environment using RStudio for basic downstream analysis of RNA-seq data.
 
-**Target audience**
-HDRs, researchers who have or will soon acquire RNA-seq short-read data which they need to analyse themselves or others who desire to understand RNA-seq analysis using pipelining efforts such as Nextflow
+**Target audience**<br>
+HDR students, researchers who have or will soon acquire RNA-seq short-read data which they need to analyse themselves or others who desire to understand how to perform RNA-seq analysis using workflow management tools such as Nextflow.
 
 **Lead trainers:**
 - Dr. Nandan Deshpande (Sydney Informatics Hub)
 - Dr. Sarah Beecroft (Pawsey Supercomputing Center)
+- ???
 
-**Interesting links**
+**Interesting resources**
 
-(1) **[Nextflow and Supercomputing at Pawsey]()** : An introduction to nextflow pipelines and Pawsey supercomputing. 
+- **[Nextflow and Supercomputing at Pawsey]()** : An introduction to nextflow pipelines and Pawsey supercomputing. 
 
-(2) Introduction to **[Unix/Linux command line](https://datacarpentry.org/shell-genomics/)** 
+- Introduction to **[Unix/Linux command line](https://datacarpentry.org/shell-genomics/)** 
 
-(3) Introduction to **[R/RStudio](https://datacarpentry.org/genomics-r-intro/)**
+- Introduction to **[R/RStudio](https://datacarpentry.org/genomics-r-intro/)**
 
 
 > **OWN LAPTOP REQUIRED**.
