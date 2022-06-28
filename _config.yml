@@ -11,7 +11,7 @@ port: 4001
 carpentry: "sih"
 
 # Overall title for pages.
-title: "Bioinformatics "
+title: "RNA-seq using Nextflow"
 series_name: "USYD SIH Bioinformatics Series"
 
 #------------------------------------------------------------
